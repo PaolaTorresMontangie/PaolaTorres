@@ -1,0 +1,61 @@
+1440 × 900 píxeles
+
+**
+$color-soft-gold:    
+#D6B58A
+
+$color-rose-powder:  
+#E9B7C1
+
+gris marron suave #A18262 ?
+
+**** PENDIENTES
+
+* whatsapp flotante: textos para whatsapp flotante
+* hacer funcionar formulario
+* flecha para rriba
+* ejemplos: taco de reina
+* cambiar: SEO local y figma
+
+* textos copados en link whatsapp
+* subir a github
+
+
+* favicon
+* ejemplo: tomar nuevamente Lowtian
+* ejemplos: links a páginas reales (o cambiar boton)
+* cards de Bootstrap? grandes y que se muevan en trabajos
+
+
+* toda la cabecera con seo opegraph, meta, title, favicon
+* que nada esté con px
+* clases de custom navbar y navbar, se puede unificar?
+* AL SUBIR: cambiar mail torresvp x mail info@
+
+
+// para formulario de contacto
+HTML + CSS + Formspree = perfecto
+
+
+******** diseño y paleta de colores de la web
+
+* La navbar la quiero con fondo ivory y letras verde stromboli
+* hero, imagen manos a la derecha con degradé en marron cape palliser degrade de izquierda a derecha 
+textos ivory y boton CTA con fondo ivory con letras verde stromboli
+
+* seccion de cards: fondo soft peach, card con fondo ivory, textos verde stromboli, gris oscuro y marron cape palliser. 
+iconos marron, boton soft peach
+
+* sección ejemplos: fondo ivory, textos gris oscuro o verde, boton verde si hay
+* footer: fondo soft pink y letras gris oscuro o verde stromboli
+
+
+**** tamaño de fonts recomendado
+
+Elemento	Tamaño ideal (desktop)	Tablet	Mobile
+h1 (hero)	2.8rem → 48px	2.3rem	1.8rem
+h2 (secciones)	2.2rem → 35px	1.9rem	1.6rem
+h3 (cards)	1.5rem → 24px	1.4rem	1.3rem
+Body / párrafo	1.3rem → 21px	1.2rem	1rem
+Formulario labels	0.9rem	0.9rem	0.9rem
+Botones	1.2rem	1.1rem	1rem
