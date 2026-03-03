@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Editorial Web Developer Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@300;400;500;600&amp;family=Mrs+Saint+Delafield&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#2D5A43",
+                        "deep-green": "#1F493D",
+                        "ivory-text": "#FAF7F4",
+                        "background-light": "#F7F2EF",
+                        "background-dark": "#1A1A1A",
+                        "ivory-bg": "#FAF7F4",
+                        accent: "#A67C52",
+                        "ivory-border": "#E5E0DC",
+                    },
+                    fontFamily: {
+                        display: ["Playfair Display", "serif"],
+                        sans: ["Inter", "sans-serif"],
+                        handwriting: ["Mrs Saint Delafield", "cursive"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0px",
+                        'lg': '12px',
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        .hero-right-image {
+            background: linear-gradient(to right, rgba(166, 124, 82, 0.2), rgba(166, 124, 82, 0.4)), url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+        .text-outline {
+            -webkit-text-stroke: 1px currentColor;
+            color: transparent;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .monitor-frame {
+            @apply relative rounded-xl border-[6px] border-[#222] bg-[#222] shadow-2xl;
+        }
+        .monitor-screen {
+            @apply overflow-hidden rounded-[2px] bg-gray-100;
+        }
+        .phone-frame {
+            @apply relative rounded-[2.5rem] border-[8px] border-[#1a1a1a] bg-[#1a1a1a] shadow-[0_20px_50px_rgba(0,0,0,0.3)] ring-1 ring-white/10;
+        }
+        .phone-screen {
+            @apply overflow-hidden rounded-[2rem] bg-white aspect-[9/19];
+        }
+        .phone-notch {
+            @apply absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-6 bg-[#1a1a1a] rounded-b-2xl z-20;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300">
+    
+    <nav class="absolute top-0 left-0 w-full z-50 bg-transparent border-b border-gray-200/10">
+        <div class="max-w-[1600px] mx-auto px-12 py-8 flex justify-between items-center">
+            <div class="flex flex-col">
+                <span class="font-display text-2xl tracking-widest uppercase">ELARA</span>
+                <span class="text-[10px] tracking-[0.3em] uppercase opacity-70 -mt-1">Digital Architect</span>
+            </div>
+            <div class="hidden md:flex space-x-12 text-[10px] font-bold uppercase tracking-[0.3em]">
+                <a class="hover:text-accent transition-colors" href="#">Experience</a>
+                <a class="hover:text-accent transition-colors" href="#">Services</a>
+                <a class="hover:text-accent transition-colors" href="#">Portfolio</a>
+                <a class="hover:text-accent transition-colors" href="#">Contact</a>
+            </div>
+            <a class="bg-deep-green text-ivory-text px-8 py-3 text-[10px] font-bold uppercase tracking-[0.3em] hover:bg-primary transition-all shadow-lg" href="#">
+            Book a Consult
+            </a>
+        </div>
+    </nav>
+
+<header class="relative min-h-screen flex flex-col lg:flex-row overflow-hidden">
+<div class="w-full lg:w-1/2 bg-ivory-bg dark:bg-zinc-950 flex items-center px-12 lg:px-24 pt-32 pb-20 lg:py-0">
+<div class="max-w-xl">
+<span class="block font-sans font-medium tracking-[0.4em] uppercase text-[10px] mb-8 text-accent italic">Are you ready to evolve?</span>
+<h1 class="font-display text-6xl md:text-8xl text-gray-900 dark:text-white leading-[1.1] mb-10">
+                Elevate Your <br/>
+<span class="italic font-normal">Digital Presence</span> <br/>
+                To Artistry.
+            </h1>
+<p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed mb-12 font-light max-w-md">
+                Building high-converting, editorial-grade websites for visionary founders who refuse to blend into the digital noise. Let's create your masterpiece.
+            </p>
+<a class="inline-block bg-deep-green text-ivory-text px-12 py-5 text-[10px] font-bold uppercase tracking-[0.4em] hover:bg-primary transition-all shadow-xl" href="#">
+                Work With Me
+            </a>
+</div>
+</div>
+<div class="w-full lg:w-1/2 h-[50vh] lg:h-auto hero-right-image relative shadow-2xl">
+<div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+</div>
+</header>
+
+<section class="py-32 bg-background-light dark:bg-background-dark">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center mb-20">
+            <span class="text-accent font-medium tracking-[0.4em] uppercase text-[10px] mb-4 block italic">Curated Solutions</span>
+            <h2 class="font-display text-4xl md:text-5xl dark:text-white">Professional <span class="italic">Services</span></h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-[#FAF7F5] dark:bg-zinc-900 p-12 lg:p-16 border border-ivory-border dark:border-zinc-800 shadow-[0_4px_20px_-12px_rgba(0,0,0,0.05)] flex flex-col items-start transition-all hover:shadow-md h-full">
+                <div class="mb-12">
+                    <span class="material-symbols-outlined text-primary text-3xl font-light">architecture</span>
+                </div>
+                <span class="font-display text-6xl text-accent/30 mb-6 leading-none block">01</span>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-8 tracking-tight leading-tight dark:text-white">Full-Stack<br/>Development</h3>
+                <p class="text-gray-600 dark:text-gray-400 text-sm lg:text-base leading-[1.8] font-light mb-12">
+                                Seamlessly blending sophisticated front-end aesthetics with robust technical architecture. I build high-performance, scalable web applications tailored to the nuances of premium brands.
+                </p>
+                <a class="mt-auto bg-deep-green text-ivory-text px-8 py-3.5 text-[10px] font-bold uppercase tracking-[0.3em] hover:bg-opacity-90 transition-all" href="#">
+                                VIEW DETAILS
+                </a>
+            </div>
+            
+            <div class="bg-[#FAF7F5] dark:bg-zinc-900 p-12 lg:p-16 border border-ivory-border dark:border-zinc-800 shadow-[0_4px_20px_-12px_rgba(0,0,0,0.05)] flex flex-col items-start transition-all hover:shadow-md h-full">
+                <div class="mb-12">
+                    <span class="material-symbols-outlined text-primary text-3xl font-light">auto_awesome</span>
+                </div>
+                <span class="font-display text-6xl text-accent/30 mb-6 leading-none block">02</span>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-8 tracking-tight leading-tight dark:text-white">Creative<br/>Direction</h3>
+                <p class="text-gray-600 dark:text-gray-400 text-sm lg:text-base leading-[1.8] font-light mb-12">
+                                Bridging the gap between code and culture. I define the visual language and user journey of your digital footprint, ensuring every interaction feels intentional, luxurious, and cohesive.
+                </p>
+                <a class="mt-auto bg-deep-green text-ivory-text px-8 py-3.5 text-[10px] font-bold uppercase tracking-[0.3em] hover:bg-opacity-90 transition-all" href="#">
+                                VIEW DETAILS
+                </a>
+            </div>
+            
+            <div class="bg-[#FAF7F5] dark:bg-zinc-900 p-12 lg:p-16 border border-ivory-border dark:border-zinc-800 shadow-[0_4px_20px_-12px_rgba(0,0,0,0.05)] flex flex-col items-start transition-all hover:shadow-md h-full">
+                <div class="mb-12">
+                    <span class="material-symbols-outlined text-primary text-3xl font-light">insights</span>
+                </div>
+                <span class="font-display text-6xl text-accent/30 mb-6 leading-none block">03</span>
+                <h3 class="font-display text-2xl lg:text-3xl font-bold mb-8 tracking-tight leading-tight dark:text-white">Technical<br/>Strategy</h3>
+                <p class="text-gray-600 dark:text-gray-400 text-sm lg:text-base leading-[1.8] font-light mb-12">
+                                Expert consulting for founders navigating complex digital landscapes. From auditing performance bottlenecks to defining your future tech stack, I provide the roadmap for sustained growth.
+                            </p>
+                <a class="mt-auto bg-deep-green text-ivory-text px-8 py-3.5 text-[10px] font-bold uppercase tracking-[0.3em] hover:bg-opacity-90 transition-all" href="#">
+                                VIEW DETAILS
+                            </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-primary text-white py-24 relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-full h-32 bg-background-light dark:bg-background-dark rounded-b-[100%] scale-x-150 transform -translate-y-1/2"></div>
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-0 divide-y md:divide-y-0 md:divide-x divide-white/20 text-center">
+            <div class="py-8 md:px-8">
+                <span class="block font-display text-5xl mb-2">8+</span>
+                <span class="text-[10px] uppercase tracking-[0.4em] font-medium opacity-80">Years of Experience</span>
+            </div>
+            <div class="py-8 md:px-8">
+                <span class="block font-display text-5xl mb-2">150+</span>
+                <span class="text-[10px] uppercase tracking-[0.4em] font-medium opacity-80">Platforms Launched</span>
+            </div>
+            <div class="py-8 md:px-8">
+                <span class="block font-display text-5xl mb-2">400%</span>
+                <span class="text-[10px] uppercase tracking-[0.4em] font-medium opacity-80">Avg. Conversion Increase</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-32 bg-ivory-bg dark:bg-zinc-950">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
+<div>
+<span class="text-accent font-medium tracking-[0.4em] uppercase text-[10px] mb-4 block italic">Selected Works</span>
+<h2 class="font-display text-5xl md:text-7xl dark:text-white leading-tight">Featured <span class="italic">Portfolio</span></h2>
+</div>
+<p class="text-gray-600 dark:text-gray-400 max-w-sm text-sm leading-relaxed mb-2">
+                A curation of digital experiences crafted for high-end lifestyle brands and visionary entrepreneurs, designed to scale and perform.
+            </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-40">
+<div class="group flex flex-col">
+<div class="relative mb-12">
+<div class="monitor-frame group-hover:shadow-primary/5 transition-all duration-700">
+<div class="monitor-screen aspect-[16/10]">
+<img alt="Aura Fragrances Desktop" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQrRbVinBbXp4XdGCaLjOHCjcl0fCCG3G7GnILIPhx52nDi9X5tUVgGClKU4qpbduouS47HUB8bOQ55AOHjifMGQukn_tRKlom9DRLy6_ps8UC6tQO6opdeNaBN6iGeMZ7e8yuSJDBfthrnmUzhnAx0Dn6LEyAYBJil69WIg1qSZmvjE-Fq1qFWkxJKUAciDH4-6qjRbvaJE5l8x6HW-gEUIh8UNS1VjTGWa5bIld2IFLnGpWHyJnFR3qhbT8fKCWB5ofK1p1MPU4"/>
+</div>
+</div>
+<div class="absolute -bottom-16 right-8 w-[30%] z-10 group-hover:translate-y-[-10px] transition-transform duration-700">
+<div class="phone-frame">
+<div class="phone-notch"></div>
+<div class="phone-screen">
+<img alt="Aura Fragrances Mobile" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQrRbVinBbXp4XdGCaLjOHCjcl0fCCG3G7GnILIPhx52nDi9X5tUVgGClKU4qpbduouS47HUB8bOQ55AOHjifMGQukn_tRKlom9DRLy6_ps8UC6tQO6opdeNaBN6iGeMZ7e8yuSJDBfthrnmUzhnAx0Dn6LEyAYBJil69WIg1qSZmvjE-Fq1qFWkxJKUAciDH4-6qjRbvaJE5l8x6HW-gEUIh8UNS1VjTGWa5bIld2IFLnGpWHyJnFR3qhbT8fKCWB5ofK1p1MPU4"/>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<span class="text-[10px] uppercase tracking-[0.4em] text-accent mb-3 block font-semibold italic">01 / E-Commerce Architecture</span>
+<h3 class="font-display text-3xl md:text-4xl dark:text-white mb-4 leading-tight tracking-tight">Aura Fragrances</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm md:text-base leading-relaxed mb-8 font-light max-w-md">Custom Shopify Plus architecture for a Parisian perfume house focusing on sensory storytelling and immersive customer journeys.</p>
+<a class="inline-flex items-center text-[10px] font-bold uppercase tracking-[0.3em] border-b border-primary/20 pb-1 group-hover:border-primary transition-all" href="#">Explore Case Study</a>
+</div>
+</div>
+<div class="group flex flex-col">
+<div class="relative mb-12">
+<div class="monitor-frame group-hover:shadow-primary/5 transition-all duration-700">
+<div class="monitor-screen aspect-[16/10]">
+<img alt="Lumina Analytics Desktop" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASJ-h5iwe096x4A6Wd-DWdCez_pAp6bvTKjXh2p6K7iRnhH2strm_RqCI5Kkm05HjwWfaEGn_llbGxjFK6OK7zItEad2SKeslAPT7ar2h9NU2xlM9lZNGc2bRIaZtS5TStCUC7ZwJbkkd5X6sXgYYW8gIU-ttSDAIjcnBs5HQaZJlkQtPGISJPOZMdEyBs2i43TcvOqQFO4GGMWjIBcuyvHLwWI5YFoRVul2QVVPpgpZRBA25oatcppkzXSZUyXrCzt8g7jPfBTMU"/>
+</div>
+</div>
+<div class="absolute -bottom-16 right-8 w-[30%] z-10 group-hover:translate-y-[-10px] transition-transform duration-700">
+<div class="phone-frame">
+<div class="phone-notch"></div>
+<div class="phone-screen">
+<img alt="Lumina Analytics Mobile" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASJ-h5iwe096x4A6Wd-DWdCez_pAp6bvTKjXh2p6K7iRnhH2strm_RqCI5Kkm05HjwWfaEGn_llbGxjFK6OK7zItEad2SKeslAPT7ar2h9NU2xlM9lZNGc2bRIaZtS5TStCUC7ZwJbkkd5X6sXgYYW8gIU-ttSDAIjcnBs5HQaZJlkQtPGISJPOZMdEyBs2i43TcvOqQFO4GGMWjIBcuyvHLwWI5YFoRVul2QVVPpgpZRBA25oatcppkzXSZUyXrCzt8g7jPfBTMU"/>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<span class="text-[10px] uppercase tracking-[0.4em] text-accent mb-3 block font-semibold italic">02 / SaaS Platform</span>
+<h3 class="font-display text-3xl md:text-4xl dark:text-white mb-4 leading-tight tracking-tight">Lumina Analytics</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm md:text-base leading-relaxed mb-8 font-light max-w-md">Next.js powered dashboard for high-frequency data visualization in the luxury goods market, optimized for executive decision making.</p>
+<a class="inline-flex items-center text-[10px] font-bold uppercase tracking-[0.3em] border-b border-primary/20 pb-1 group-hover:border-primary transition-all" href="#">Explore Case Study</a>
+</div>
+</div>
+<div class="group flex flex-col">
+<div class="relative mb-12">
+<div class="monitor-frame group-hover:shadow-primary/5 transition-all duration-700">
+<div class="monitor-screen aspect-[16/10]">
+<img alt="Vantard Muse Desktop" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKgXS7Bl1jwyBrT6NJ4aZSL1BGwNPm3lJ1urmGHPKV2ApKygptg0q29vVahVxY6DqQ5w0zcrvJbHk95NTByZKErWpG_juFwXcRM6p0EG7cv6qUSR-ujLPdtbQ27hSzaPJBNzkuoa4DLg4RZ9zZPlticb-rIS042ueP2CXes-M5bH8HXxB9UlV-A3kyLzwbXJHKHsYylXZtf-qhYalTfrQYSIPPbzgykZklePPyh_CTVwcGGfYsIq-Tz_whyH1XndVPYNtPcZH8-uM"/>
+</div>
+</div>
+<div class="absolute -bottom-16 right-8 w-[30%] z-10 group-hover:translate-y-[-10px] transition-transform duration-700">
+<div class="phone-frame">
+<div class="phone-notch"></div>
+<div class="phone-screen">
+<img alt="Vantard Muse Mobile" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKgXS7Bl1jwyBrT6NJ4aZSL1BGwNPm3lJ1urmGHPKV2ApKygptg0q29vVahVxY6DqQ5w0zcrvJbHk95NTByZKErWpG_juFwXcRM6p0EG7cv6qUSR-ujLPdtbQ27hSzaPJBNzkuoa4DLg4RZ9zZPlticb-rIS042ueP2CXes-M5bH8HXxB9UlV-A3kyLzwbXJHKHsYylXZtf-qhYalTfrQYSIPPbzgykZklePPyh_CTVwcGGfYsIq-Tz_whyH1XndVPYNtPcZH8-uM"/>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<span class="text-[10px] uppercase tracking-[0.4em] text-accent mb-3 block font-semibold italic">03 / Editorial Design</span>
+<h3 class="font-display text-3xl md:text-4xl dark:text-white mb-4 leading-tight tracking-tight">Vantard Muse</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm md:text-base leading-relaxed mb-8 font-light max-w-md">A digital publication platform designed to mimic the weight and luxury of high-fashion print media with seamless performance.</p>
+<a class="inline-flex items-center text-[10px] font-bold uppercase tracking-[0.3em] border-b border-primary/20 pb-1 group-hover:border-primary transition-all" href="#">Explore Case Study</a>
+</div>
+</div>
+<div class="group flex flex-col">
+<div class="relative mb-12">
+<div class="monitor-frame group-hover:shadow-primary/5 transition-all duration-700">
+<div class="monitor-screen aspect-[16/10]">
+<img alt="Digital Boutique Desktop" class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQrRbVinBbXp4XdGCaLjOHCjcl0fCCG3G7GnILIPhx52nDi9X5tUVgGClKU4qpbduouS47HUB8bOQ55AOHjifMGQukn_tRKlom9DRLy6_ps8UC6tQO6opdeNaBN6iGeMZ7e8yuSJDBfthrnmUzhnAx0Dn6LEyAYBJil69WIg1qSZmvjE-Fq1qFWkxJKUAciDH4-6qjRbvaJE5l8x6HW-gEUIh8UNS1VjTGWa5bIld2IFLnGpWHyJnFR3qhbT8fKCWB5ofK1p1MPU4"/>
+</div>
+</div>
+<div class="absolute -bottom-16 right-8 w-[30%] z-10 group-hover:translate-y-[-10px] transition-transform duration-700">
+<div class="phone-frame">
+<div class="phone-notch"></div>
+<div class="phone-screen">
+<img alt="Digital Boutique Mobile" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQrRbVinBbXp4XdGCaLjOHCjcl0fCCG3G7GnILIPhx52nDi9X5tUVgGClKU4qpbduouS47HUB8bOQ55AOHjifMGQukn_tRKlom9DRLy6_ps8UC6tQO6opdeNaBN6iGeMZ7e8yuSJDBfthrnmUzhnAx0Dn6LEyAYBJil69WIg1qSZmvjE-Fq1qFWkxJKUAciDH4-6qjRbvaJE5l8x6HW-gEUIh8UNS1VjTGWa5bIld2IFLnGpWHyJnFR3qhbT8fKCWB5ofK1p1MPU4"/>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<span class="text-[10px] uppercase tracking-[0.4em] text-accent mb-3 block font-semibold italic">04 / Luxury Retail</span>
+<h3 class="font-display text-3xl md:text-4xl dark:text-white mb-4 leading-tight tracking-tight">Maison De Soie</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm md:text-base leading-relaxed mb-8 font-light max-w-md">Transforming traditional retail into a premium online experience through custom headless commerce integrations.</p>
+<a class="inline-flex items-center text-[10px] font-bold uppercase tracking-[0.3em] border-b border-primary/20 pb-1 group-hover:border-primary transition-all" href="#">Explore Case Study</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-32 bg-background-light dark:bg-background-dark">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+<div>
+<span class="text-accent font-medium tracking-[0.4em] uppercase text-[10px] mb-6 block italic">Start A Conversation</span>
+<h2 class="font-display text-4xl md:text-6xl dark:text-white leading-tight mb-8">Ready to <span class="italic">Begin</span> Your Transformation?</h2>
+<p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed font-light mb-12 max-w-md">
+                    I am currently accepting new projects for Q3 2024. If you have a vision that requires both technical precision and artistic flair, I’d love to hear from you.
+                </p>
+<div class="space-y-6">
+<div class="flex items-center space-x-4">
+<span class="w-12 h-[1px] bg-primary"></span>
+<a class="text-xs uppercase tracking-widest font-bold hover:text-primary transition-colors" href="mailto:hello@elara.design">hello@elara.design</a>
+</div>
+<div class="flex items-center space-x-4">
+<span class="w-12 h-[1px] bg-primary"></span>
+<span class="text-xs uppercase tracking-widest font-bold">Based in London / Available Worldwide</span>
+</div>
+</div>
+</div>
+<div class="bg-ivory-bg dark:bg-zinc-900 p-10 md:p-16 shadow-sm border border-ivory-border dark:border-zinc-800">
+<form class="space-y-8">
+<div>
+<label class="block text-[10px] uppercase tracking-widest font-bold mb-2 dark:text-white">Full Name</label>
+<input class="w-full bg-transparent border-0 border-b border-gray-300 dark:border-gray-700 py-3 px-0 focus:ring-0 focus:border-primary transition-colors placeholder:text-gray-400 font-light" placeholder="Jane Doe" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] uppercase tracking-widest font-bold mb-2 dark:text-white">Email Address</label>
+<input class="w-full bg-transparent border-0 border-b border-gray-300 dark:border-gray-700 py-3 px-0 focus:ring-0 focus:border-primary transition-colors placeholder:text-gray-400 font-light" placeholder="jane@example.com" type="email"/>
+</div>
+<div>
+<label class="block text-[10px] uppercase tracking-widest font-bold mb-2 dark:text-white">Project Brief</label>
+<textarea class="w-full bg-transparent border-0 border-b border-gray-300 dark:border-gray-700 py-3 px-0 focus:ring-0 focus:border-primary transition-colors placeholder:text-gray-400 font-light resize-none" placeholder="Tell me about your project vision..." rows="4"></textarea>
+</div>
+<button class="w-full bg-deep-green text-ivory-text py-5 text-[10px] font-bold uppercase tracking-[0.4em] hover:opacity-90 transition-all">Send Inquiry</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-deep-green text-ivory-text py-20">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-white/10 pb-16 mb-16 gap-12">
+<div class="flex flex-col">
+<span class="font-display text-3xl tracking-widest uppercase">ELARA</span>
+<span class="text-[10px] tracking-[0.3em] uppercase opacity-70 -mt-1 italic">Digital Architect &amp; Creative Director</span>
+</div>
+<div class="flex flex-wrap gap-x-12 gap-y-6">
+<a class="text-[10px] uppercase tracking-[0.3em] hover:text-accent transition-colors" href="#">Experience</a>
+<a class="text-[10px] uppercase tracking-[0.3em] hover:text-accent transition-colors" href="#">Services</a>
+<a class="text-[10px] uppercase tracking-[0.3em] hover:text-accent transition-colors" href="#">Portfolio</a>
+<a class="text-[10px] uppercase tracking-[0.3em] hover:text-accent transition-colors" href="#">Inquire</a>
+</div>
+<div class="flex space-x-6">
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<span class="material-symbols-outlined !text-xl">link</span>
+</a>
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<span class="material-symbols-outlined !text-xl">camera_alt</span>
+</a>
+<a class="opacity-70 hover:opacity-100 transition-opacity" href="#">
+<span class="material-symbols-outlined !text-xl">share</span>
+</a>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-[9px] uppercase tracking-[0.3em] opacity-40">© 2024 Elara Digital Design. All rights reserved.</p>
+<div class="flex space-x-8 text-[9px] uppercase tracking-[0.3em] opacity-40">
+<a class="hover:opacity-100" href="#">Privacy Policy</a>
+<a class="hover:opacity-100" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<button class="fixed bottom-6 right-6 p-3 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full shadow-lg z-50 group transition-all" onclick="document.documentElement.classList.toggle('dark')">
+<span class="material-symbols-outlined text-primary group-hover:rotate-12 transition-transform">brightness_medium</span>
+</button>
+
+</body></html>
