@@ -48,7 +48,7 @@
             </div>
         </nav>
 
-        <section class="hero" id="home">
+        <section class="section__hero" id="home">
         
             <div class="container-limit"> 
 
@@ -75,7 +75,7 @@
     <main>
 
         <!-- SERVICIOS SERVICES -------------------------------------------------------------------->
-        <section class="section services" id="services">
+        <section class="section section__services" id="services">
             <div class="container-limit">
 
                 <div class="section__header">
@@ -143,7 +143,7 @@
 
 
         <!-- EJEMPLOS EXAMPLES -------------------------------------------------------------------->        
-        <section class="section examples" id="examples">
+        <section class="section section__examples" id="examples">
             <div class="container-limit">
 
                 <div class="section__header">
@@ -253,11 +253,10 @@
 
             </div>
             
-        </section> <!-- fin section ejemplos -->   
-
+        </section>         
 
         <!-- CONTACTO CONTACT -------------------------------------------------------------------->
-        <section class="section contact" id="contact">
+        <section class="section section__contact" id="contact">
             
             <div class="container-limit">
 
@@ -307,9 +306,10 @@
                     <!-- Formulario -->
                     <div class="contact__form">
 
-                        <form>
-                            <!-- <legend class="visually-hidden">Formulaio de contacto</legend> -->
+                        <form action="https://formsubmit.co/torresvp@gmail.com" method="POST">
 
+                            <!-- <legend class="visually-hidden">Formulaio de contacto</legend> -->                       
+                                                        
                             <div class="mb-3">
                                 <label for="nombre" class="form-label">Nombre</label>
                                 <input
@@ -343,6 +343,16 @@
                                     required></textarea>
                             </div>
 
+                            <!-- campos ocultos -->
+                            <input type="hidden" name="_subject" value="Nuevo mensaje desde tu web">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+
+                            <input type="hidden" name="_next" value="https://paolatorresmontangie.github.io/PaolaTorres/index.html#thanks">
+                            <!-- <input type="hidden" name="_next" value="http://localhost:5500/index.html#thanks"> local -->
+
+                            <input type="text" name="_honey" style="display:none">
+
                             <button type="submit" class="btn-primary">Enviar</button>
                         </form>
                     
@@ -367,9 +377,28 @@
                 
             </div> <!-- fin container-limit -->
                 
-        <!-- fin section contacto -->
         </section>
 
+        <!-- GRACIAS THANKS luego envio mail -------------------------------------------------------------------->
+        
+        <section class="section section__thanks" id="thanks" >
+            <div class="container-limit">
+
+                <div class="section__header">
+                    <span class="section__eyebrow">Email enviado</span>
+
+                    <h2 class="section__title">
+                        ¡Gracias por tu mensaje!
+                    </h2>
+
+                    <p class="section__description">
+                        Te responderé pronto. Mientras tanto podés seguir viendo algunos trabajos.
+                    </p>
+                </div>      
+
+            </div>      
+        </section>
+                
     </main>
 
 

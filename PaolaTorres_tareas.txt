@@ -37,13 +37,8 @@ Link directo para compartir
 
 Guía básica de uso
 
-** calificacion positiva de Mauro plomero gasista
-
-
-** imprimir detalle auto
-** beca alimentaria
 --------------------------------------------------------------------
-DISEÑO EMILy
+DISEÑO EMILY
 
 numeros grandes #bcb2a0
 titulos #716564
@@ -57,67 +52,55 @@ otra seccion
 #afa29d seccion newsletter
 ********************************
 
+
+
+MIERCOLES
+*definir marca personal o empresa, y pensar logo
+* nombre y dominio?
+
+JUEVES
+* favicon?
+* controlar ALT
+* toda la cabecera con seo opegraph, meta, title, faviconojo
+* chequear velocidad de carga
+
+VIERNES
+* definir precios por paquete
+* definir detalle de cada paquete
+* armar respuestas guardadas en whatsapp business
+
+SABADO
+* reseña positiva Agencia Urban y avisarles
+* pensar mensaje para las disintas personas a las que deseo avisarles
+
+
+OTROS
+* agregar autoridad! coso verde!
+* flecha para rriba
 * hero en monitor samsung tiene demasiado aire a la izq
 * grid con column y row para que siempre esté centrado en ancho y alto
 * contacto: como hacer que la imagen no quede volando?
-
-MARTES
-* flecha para rriba
-* hacer funcionar formulario
+* falta target="_blank" rel="noopener noreferrer" en mail directo!
 
 
-* agregar autoridad! coso verde!
-* textos copados en link whatsapp
-* favicon?
-* toda la cabecera con seo opegraph, meta, title, faviconojo
-* controlar ALT
+AL SUBIR: 
 * que nada esté con px
-* clases de custom navbar y navbar, se puede unificar?
-* AL SUBIR: cambiar mail torresvp x mail info@
-
-* detalle de servicio expandido ? * ver detalles por MAS INFO si no lo expando
-
-
-// para formulario de contacto
-HTML + CSS + Formspree = perfecto
-
-* investigar como se hace el newsletter desde Tienda Nube
-
-3) servicios whatsap business, web con noticias de redes sociales
-https://www.reddit.com/r/SocialMediaMarketing/comments/1oj2hbp/how_do_you_keep_your_websites_social_media/?tl=es-419
-https://www.google.com/search?q=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&sca_esv=9a738b84887eecfa&sxsrf=ANbL-n7905L5xFw3bm4A3bM_-rPh0pIA9Q%3A1771768667130&ei=WwubadrPB6jA5OUPv8PfmQc&biw=1366&bih=641&ved=0ahUKEwia6ZzQoO2SAxUoILkGHb_hN3MQ4dUDCBE&uact=5&oq=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&gs_lp=Egxnd3Mtd2l6LXNlcnAiOWNvbW8gaW5jcnVzdGFyIG5vdGljaWFzIGRlIHJlZGVzIHNvY2lhbGVzIGVuIHR1IHNpdGlvIHdlYjIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIESJKcAVAAWJ-SAXAFeACQAQCYAdIBoAHUOKoBBzEwLjUyLjG4AQPIAQD4AQGYAkSgApQ9qAIUwgIHECMYJxjqAsICDRAuGNEDGMcBGCcY6gLCAhAQABgDGLQCGOoCGI8B2AEBwgIQEC4YAxi0AhjqAhiPAdgBAcICChAjGIAEGCcYigXCAgQQIxgnwgINEAAYgAQYsQMYQxiKBcICChAAGIAEGEMYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIQECMY8AUYgAQYJxjJAhiKBcICChAuGIAEGEMYigXCAgoQIxjwBRgnGMkCwgIQEC4YgAQYsQMYQxiDARiKBcICCxAAGIAEGLEDGMkDwgILEAAYgAQYkgMYigXCAgsQLhiABBixAxiDAcICBBAAGAPCAgUQABiABMICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYigXCAgkQABiABBgKGAvCAggQABgIGA0YHsICCBAAGKIEGIkFwgIHEAAYgAQYDcICBhAAGBYYHsICBxAhGKABGArCAgYQIRgVGAqYAxbxBXIfNXyCl2pkugYGCAEQARgKkgcGNS42Mi4xoAfl7AOyBwYwLjYyLjG4B-M8wgcLMC44LjQ2LjEzLjHIB4MDgAgA&sclient=gws-wiz-serp
-
-
-* chequear velocidad de carga
-
-4) nombre y dominio?
-7) diseño de otros templates
-
-* arreglar en todas mis paginas max-width 1600 o 1660 
+* arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
 * arreglar visitas guiadas banderitas mobile
 * SUBIR una mujer real a github (con max-width y hero que ocupe 100%) y cambiar titulo y subtitulo por si acaso!
 
+* cambiar mail torresvp x mail info@ en mail visible y en form contacto
+* poner dominio y sacar local
+<!-- <input type="hidden" name="_next" value="https://tudominio.com/#gracias">  -->
 
 
-******** diseño y paleta de colores de la web
+FASE 2
+* detalle de servicio expandido ? * ver detalles por MAS INFO si no lo expando
+* investigar como se hace el newsletter desde Tienda Nube
+* investigar web con noticias de redes sociales
+https://www.reddit.com/r/SocialMediaMarketing/comments/1oj2hbp/how_do_you_keep_your_websites_social_media/?tl=es-419
+https://www.google.com/search?q=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&sca_esv=9a738b84887eecfa&sxsrf=ANbL-n7905L5xFw3bm4A3bM_-rPh0pIA9Q%3A1771768667130&ei=WwubadrPB6jA5OUPv8PfmQc&biw=1366&bih=641&ved=0ahUKEwia6ZzQoO2SAxUoILkGHb_hN3MQ4dUDCBE&uact=5&oq=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&gs_lp=Egxnd3Mtd2l6LXNlcnAiOWNvbW8gaW5jcnVzdGFyIG5vdGljaWFzIGRlIHJlZGVzIHNvY2lhbGVzIGVuIHR1IHNpdGlvIHdlYjIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIESJKcAVAAWJ-SAXAFeACQAQCYAdIBoAHUOKoBBzEwLjUyLjG4AQPIAQD4AQGYAkSgApQ9qAIUwgIHECMYJxjqAsICDRAuGNEDGMcBGCcY6gLCAhAQABgDGLQCGOoCGI8B2AEBwgIQEC4YAxi0AhjqAhiPAdgBAcICChAjGIAEGCcYigXCAgQQIxgnwgINEAAYgAQYsQMYQxiKBcICChAAGIAEGEMYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIQECMY8AUYgAQYJxjJAhiKBcICChAuGIAEGEMYigXCAgoQIxjwBRgnGMkCwgIQEC4YgAQYsQMYQxiDARiKBcICCxAAGIAEGLEDGMkDwgILEAAYgAQYkgMYigXCAgsQLhiABBixAxiDAcICBBAAGAPCAgUQABiABMICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYigXCAgkQABiABBgKGAvCAggQABgIGA0YHsICCBAAGKIEGIkFwgIHEAAYgAQYDcICBhAAGBYYHsICBxAhGKABGArCAgYQIRgVGAqYAxbxBXIfNXyCl2pkugYGCAEQARgKkgcGNS42Mi4xoAfl7AOyBwYwLjYyLjG4B-M8wgcLMC44LjQ2LjEzLjHIB4MDgAgA&sclient=gws-wiz-serp
 
-* La navbar la quiero con fondo ivory y letras verde stromboli
-* hero, imagen manos a la derecha con degradé en marron cape palliser degrade de izquierda a derecha 
-textos ivory y boton CTA con fondo ivory con letras verde stromboli
-
-* seccion de cards: fondo soft peach, card con fondo ivory, textos verde stromboli, gris oscuro y marron cape palliser. 
-iconos marron, boton soft peach
-
-* sección ejemplos: fondo ivory, textos gris oscuro o verde, boton verde si hay
-* footer: fondo soft pink y letras gris oscuro o verde stromboli
-
-
-**** tamaño de fonts recomendado
-
-Elemento	Tamaño ideal (desktop)	Tablet	Mobile
-h1 (hero)	2.8rem → 48px	2.3rem	1.8rem
-h2 (secciones)	2.2rem → 35px	1.9rem	1.6rem
-h3 (cards)	1.5rem → 24px	1.4rem	1.3rem
-Body / párrafo	1.3rem → 21px	1.2rem	1rem
-Formulario labels	0.9rem	0.9rem	0.9rem
-Botones	1.2rem	1.1rem	1rem
+* diseño de otros templates (ver folletos que junté)
+* ver workana
+* hablar agencias, conocidos, Kutty
