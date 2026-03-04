@@ -57,19 +57,12 @@ otra seccion
 #afa29d seccion newsletter
 ********************************
 
-
-* 01 tu negocio en internet ocupa una sola linea, agregar palabras
-
 * hero en monitor samsung tiene demasiado aire a la izq
- grid con column y row para que siempre esté centrado en ancho y alto
-
-
-* pedidos con confianza??? no sería compras seguras?
+* grid con column y row para que siempre esté centrado en ancho y alto
 * contacto: como hacer que la imagen no quede volando?
 
 MARTES
 * flecha para rriba
-* whatsapp flotante: textos para whatsapp flotante
 * hacer funcionar formulario
 
 
