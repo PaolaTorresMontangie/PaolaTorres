@@ -276,13 +276,6 @@ a {
     height: clamp(600px, 85vh, 900px);
 }
 
-/*
-    background:
-
-
-      url("../img/heroBackgroud.jpg");
-*/
-
 .section__hero {
   /* background-color: red; */
 }
@@ -580,12 +573,12 @@ a {
 
 /* seccion gracias -------------------------*/
 .section__thanks {
-background-color: #FAF7F4;
+  background-color: #FAF7F4;
   /* solo se muestra cuando un cliente envia un mail */
   display: none;
 }
 
-#gracias:target {
+#thanks:target {
   display: block;
 }
 
