@@ -9,6 +9,103 @@ $color-rose-powder:
 
 ***
 
+
+--------------------------------------------------------------------
+DISEÑO EMILY
+
+numeros grandes #bcb2a0
+titulos #716564
+boton #5d5050
+botons letras blanco
+fondo #f2eeeb alternado con blanco
+
+otra seccion
+#d4cdc4 rectangulo arriba con letras claras
+#efedec rectangulo abajo con mucho texto arriba oscuro
+#afa29d seccion newsletter
+********************************
+
+Tu servicio realmente es:
+hacer visible un negocio
+ponerlo en el mapa digital
+hacerlo encontrable
+
+
+
+
+
+VIERNES
+
+Próximo paso SEO real
+
+Cuando la web esté online:
+
+1️⃣ subir sitemap.xml
+2️⃣ subir robots.txt
+3️⃣ registrar en Google Search Console
+
+Esto es lo que realmente hace que Google te indexe.
+
+
+8️⃣ Google Search Console
+
+Después de publicar:
+
+1️⃣ ir a
+
+https://search.google.com/search-console
+
+2️⃣ agregar dominio
+
+3️⃣ verificar DNS
+
+4️⃣ enviar sitemap
+
+https://tudominio.com/sitemap.xml
+
+
+
+
+
+1200x630
+
+img/og-image.jpg
+* opegraph, falta logoOpengraph o logo en imagen TERMINAR
+* chequear velocidad de carga
+
+LUNES
+* definir precios por paquete
+* definir detalle de cada paquete
+* armar respuestas guardadas en whatsapp business
+
+MARTES
+* reseña positiva Agencia Urban y avisarles
+* pensar mensaje para las disintas personas a las que deseo avisarles
+
+OTROS
+* agregar autoridad! coso verde!
+* flecha para rriba
+* hero en monitor samsung tiene demasiado aire a la izq (agrandar imagen a la derecha)
+* grid con column y row para que siempre esté centrado en ancho y alto
+* contacto: como hacer que la imagen no quede volando?
+* falta target="_blank" rel="noopener noreferrer" en mail directo!
+
+
+AL SUBIR: 
+* estadisitcas que muestran que tipo de pantalla utilizan
+* que nada esté con px
+* arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
+* arreglar visitas guiadas banderitas mobile
+* SUBIR una mujer real a github (con max-width y hero que ocupe 100%) y cambiar titulo y subtitulo por si acaso!
+
+* cambiar mail torresvp x mail info@ en mail visible y en form contacto
+* poner dominio y sacar local
+<input type="hidden" name="_next" value="https://paolatorresmontangie.github.io/PaolaTorres/#thanks"> 
+<!-- <input type="hidden" name="_next" value="https://tudominio.com/#gracias">  -->
+
+
+FASE 2
+* detalle de servicios
 📱 “Puesta a punto de WhatsApp Business”
 
 Incluye:
@@ -37,64 +134,7 @@ Link directo para compartir
 
 Guía básica de uso
 
---------------------------------------------------------------------
-DISEÑO EMILY
 
-numeros grandes #bcb2a0
-titulos #716564
-boton #5d5050
-botons letras blanco
-fondo #f2eeeb alternado con blanco
-
-otra seccion
-#d4cdc4 rectangulo arriba con letras claras
-#efedec rectangulo abajo con mucho texto arriba oscuro
-#afa29d seccion newsletter
-********************************
-
-
-
-MIERCOLES
-*definir marca personal o empresa, y pensar logo
-* nombre y dominio?
-
-JUEVES
-* favicon?
-* controlar ALT
-* toda la cabecera con seo opegraph, meta, title, faviconojo
-* chequear velocidad de carga
-
-VIERNES
-* definir precios por paquete
-* definir detalle de cada paquete
-* armar respuestas guardadas en whatsapp business
-
-SABADO
-* reseña positiva Agencia Urban y avisarles
-* pensar mensaje para las disintas personas a las que deseo avisarles
-
-
-OTROS
-* agregar autoridad! coso verde!
-* flecha para rriba
-* hero en monitor samsung tiene demasiado aire a la izq
-* grid con column y row para que siempre esté centrado en ancho y alto
-* contacto: como hacer que la imagen no quede volando?
-* falta target="_blank" rel="noopener noreferrer" en mail directo!
-
-
-AL SUBIR: 
-* que nada esté con px
-* arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
-* arreglar visitas guiadas banderitas mobile
-* SUBIR una mujer real a github (con max-width y hero que ocupe 100%) y cambiar titulo y subtitulo por si acaso!
-
-* cambiar mail torresvp x mail info@ en mail visible y en form contacto
-* poner dominio y sacar local
-<!-- <input type="hidden" name="_next" value="https://tudominio.com/#gracias">  -->
-
-
-FASE 2
 * detalle de servicio expandido ? * ver detalles por MAS INFO si no lo expando
 * investigar como se hace el newsletter desde Tienda Nube
 * investigar web con noticias de redes sociales

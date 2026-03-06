@@ -1,20 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Paola Torres | Presencia digital</title>
+    <title>Paola Torres | Desarrollo web y presencia online para negocios</title>
 
+    <meta name="description" content="Desarrollo web y presencia online para negocios. Google Maps, WhatsApp Business, páginas web claras, tiendas online y maquetación web a partir de diseño.">
+
+    <meta name="author" content="Paola Torres">
+    <meta name="robots" content="index, follow">
+
+    <!-- canonical url pinricipal -->
+    <link rel="canonical" href="https://paolatorres.com.ar/">
+
+    <!-- carga de imagen grande del Hero -->
+    <link rel="preload" as="image" href="./img/heroBackgroud.jpg">    
+
+    <!-- Open graph para compartir en redes -->
+    <meta property="og:title" content="Paola Torres | Desarrollo web y presencia online para negocios y profesionales">
+    <meta property="og:description" content="Ayudo a que tu negocio sea visible en internet con Google Maps, WhatsApp Business, páginas web claras y tiendas online listas para vender.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://paolatorres.com.ar/">
+    <meta property="og:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg">
+    <meta property="og:image:alt" content="Paola Torres desarrolladora web">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/jpeg">    
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Paola Torres | Desarrollo web y presencia online para negocios y profesionales">
+    <meta name="twitter:description" content="Desarrollo web y presencia online para negocios.">
+    <meta name="twitter:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg">
+
+    <!-- favicon letra P fondo verde -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon_io/site.webmanifest">
+    
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Schema SEO -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Paola Torres",
+    "jobTitle": "Desarrolladora web",
+    "url": "https://paolatorres.com.ar",
+    "description": "Desarrollo web y presencia online para negocios",
+    "knowsAbout": [
+    "Google Maps para negocios",
+    "WhatsApp Business",
+    "Desarrollo web",
+    "Tiendas online",
+    "Tienda Nube"
+    ]
+    }
+    </script>    
 </head>
 <body>
 
@@ -23,10 +77,10 @@
         <nav class="navbar navbar-expand-lg custom-navbar fixed-top">        
 
             <div class="container container-limit">
-                
-                <a class="navbar-brand mb-0" href="./index.html">
-                    <img class="logotipo" src="./img/logo.jpeg" alt="Logotipo Paola Torres">
-                </a>
+
+                <a class="navbar-brand mb-0 logo" href="./index.html">
+                    PAOLA <span class="logo-space">TORRES</span>
+                </a>                
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,10 +90,10 @@
                     <!-- ms-auto empuje a la derecha -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link fw-medium" aria-current="page" href="./index.html#home">Inicio</a></li>                            
-                        <li class="nav-item"><a class="nav-link fw-medium" href="./index.html#services">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link fw-medium" href="./index.html#examples">Trabajos</a></li>
-                        <li class="nav-item"><a class="nav-link fw-medium" href="./index.html#contact">Contacto</a></li>                    
+                        <li class="nav-item"><a class="nav-link fw-medium" aria-current="page" href="./#home">Inicio</a></li>                            
+                        <li class="nav-item"><a class="nav-link fw-medium" href="./#services">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link fw-medium" href="./#examples">Trabajos</a></li>
+                        <li class="nav-item"><a class="nav-link fw-medium" href="./#contact">Contacto</a></li>                    
                                                                         
                     </ul>
 
@@ -53,7 +107,10 @@
             <div class="container-limit"> 
 
                 <div class="hero__content">
-                    <h1 class="hero__title">Si tu negocio no está en internet, cuesta encontrarlo</h1>
+                    <h1 class="hero__title">
+                        Hago visible tu negocio en internet
+                        para que más clientes te encuentren
+                    </h1>
                     <p class="hero__subtitle">Te acompaño a dar los primeros pasos, de forma simple y clara.</p>
                     
                     <a 
@@ -82,7 +139,7 @@
                     <span class="section__eyebrow">Servicios</span>
 
                     <h2 class="section__title">
-                        Lo esencial para que te encuentren online
+                        Lo esencial para que encuentren tu negocio online
                     </h2>
 
                     <p class="section__description">
@@ -95,7 +152,7 @@
                     <article class="service__card">
                     <div class="service__card-content">
                             <span class="service__number">01</span>
-                            <h3 class="service__heading">Tu negocio en Internet</h3>
+                            <h3 class="service__heading">Tu negocio visible en Google</h3>
                             <p class="service__description">
                             Configuro tu negocio en Google Maps y WhatsApp Business para que puedan encontrarte y escribirte fácilmente.
                             </p>
@@ -109,7 +166,7 @@
                     <article class="service__card">
                         <div class="service__card-content">                      
                             <span class="service__number">02</span>
-                            <h3 class="service__heading">Web clara y profesional</h3>
+                            <h3 class="service__heading">Página web clara y profesional</h3>
                             <p class="service__description">
                             Una página que explique quién sos, qué ofrecés y cómo contactarte. Solo lo esencial, bien presentado.
                             </p>
@@ -124,7 +181,7 @@
                     <article class="service__card">
                         <div class="service__card-content">  
                             <span class="service__number">03</span>
-                            <h3 class="service__heading">Tienda online configurada</h3>
+                            <h3 class="service__heading">Tienda online en Tienda Nube</h3>
                             <p class="service__description">
                             Configuro tu tienda con productos, pagos y envíos. Te enseño cómo gestionarla con confianza.
                             </p>
@@ -172,11 +229,11 @@
                     <div class="examples__mockups">
 
                         <div class="mockup mockup--desktop">
-                        <img src="./img/exampleVisitasGuiadas-desktop.jpeg" alt="Sitio web institucional bilingüe vista desktop">
+                        <img src="./img/exampleVisitasGuiadas-desktop.jpeg" loading="lazy" alt="Sitio web bilingüe para visitas guiadas en Buenos Aires optimizado para turistas estadounidenses">
                         </div>
 
                         <div class="mockup mockup--mobile">
-                        <img src="./img/exampleVisitasGuiadas-mobile.jpeg" alt="Sitio web institucional bilingüe vista mobile">
+                        <img src="./img/exampleVisitasGuiadas-mobile.jpeg" loading="lazy" alt="Versión móvil del sitio web">
                         </div>
 
                     </div>
@@ -194,11 +251,11 @@
                     <div class="examples__mockups">
 
                         <div class="mockup mockup--desktop">
-                        <img src="./img/exampleAsesoriaImagen-desktop.jpeg" alt="Sitio web institucional vista desktop">
+                        <img src="./img/exampleAsesoriaImagen-desktop.jpeg" loading="lazy" alt="Sitio web para asesoría de imagen con diseño femenino y elegante">
                         </div>
 
                         <div class="mockup mockup--mobile">
-                        <img src="./img/exampleAsesoriaImagen-mobile.jpeg" alt="Sitio web institucional vista mobile">
+                        <img src="./img/exampleAsesoriaImagen-mobile.jpeg" loading="lazy" alt="Versión móvil del sitio web">
                         </div>
 
                     </div>
@@ -217,11 +274,11 @@
                     <div class="examples__mockups">
 
                         <div class="mockup mockup--desktop">
-                        <img src="./img/exampleLowtian-desktop.jpeg" alt="Maquetación vista desktop">
+                        <img src="./img/exampleLowtian-desktop.jpeg" loading="lazy" alt="Maquetación de tienda online a partir de un diseño previo">
                         </div>
 
                         <div class="mockup mockup--mobile">
-                        <img src="./img/exampleLowtian-mobile.jpeg" alt="Maquetación vista mobile">
+                        <img src="./img/exampleLowtian-mobile.jpeg" loading="lazy" alt="Versión móvil del sitio web">
                         </div>
 
                     </div>
@@ -240,11 +297,11 @@
                     <div class="examples__mockups">
 
                         <div class="mockup mockup--desktop">
-                        <img src="./img/exampleTDR-desktop.jpeg" alt="Configuración Tienda Nube vista desktop">
+                        <img src="./img/exampleTDR-desktop.jpeg" loading="lazy" alt="Configuración de tienda online en Tienda Nube con productos y pagos integrados">
                         </div>
 
                         <div class="mockup mockup--mobile">
-                        <img src="./img/exampleTDR-mobile.jpeg" alt="Configuración Tienda Nube vista mobile">
+                        <img src="./img/exampleTDR-mobile.jpeg" loading="lazy" alt="Versión móvil del sitio web">
                         </div>
 
                     </div>
@@ -279,7 +336,7 @@
                             <a 
                             href="https://wa.me/541167824343?text=Hola%20Paola,%20te%20escribo%20desde%20tu%20p%C3%A1gina%20web."
                             target="_blank" rel="noopener noreferrer">
-                                <img class="contact__icon" src="./img/iconoWhatsapp.svg" alt="Icono WhatsApp">
+                                <img class="contact__icon" src="./img/iconoWhatsapp.svg" alt="Enviar mensaje de WhatsApp">
                             </a>
                             <span class="contact__text">+54 11 6782-4343</span>
                         </div> 
@@ -293,7 +350,7 @@
 
 
                             <a href="mailto:torresvp@gmail.com?subject=Consulta%20desde%20tu%20p%C3%A1gina%20web&body=Hola%20Paola,%0A%0ATe%20escribo%20desde%20tu%20p%C3%A1gina%20web.%0A%0AQuiero%20informaci%C3%B3n%20sobre:%0A%0A">
-                                <img class="contact__icon" src="./img/iconoMail.svg" alt="Icono mail">
+                                <img class="contact__icon" src="./img/iconoMail.svg" alt="Enviar correo electrónico">
                             </a>
 
                             <span class="contact__text">torresvp@gmail.com</span>

@@ -89,16 +89,20 @@ a {
 .section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
   /* box-shadow: horizontal vertical desenfoque color */
   /* box-shadow: 0 4px 12px #2f2f2f40; */
 }
 
-/* =========================
-   SECTION HEADER SYSTEM
-========================= */
+/* contenedor con ancho limitado para pantallas grandes */
+.container-limit {
+  max-width: 1600px;
+  margin-inline: auto;
+  padding-inline: clamp(1rem, 4vw, 3rem);
 
+  /* background-color: violet; */
+}
+
+/* sistema de titulos */
 .section__header {
   text-align: center;
   margin-bottom: clamp(3rem, 6vw, 5rem);
@@ -196,6 +200,11 @@ a {
   z-index: 2000;
 }
 
+.custom-navbar .container {
+  display: flex;
+  align-items: center;
+}
+
 /* Altura vertical fluida */
 .navbar {
   padding-top: clamp(0.8rem, 0.6rem + 0.5vw, 1.4rem);
@@ -227,14 +236,23 @@ a {
 
 /* Marca */
 .custom-navbar .navbar-brand {
-  margin: 0;
   padding: 0;
 }
 
-.logotipo {
-  width: clamp(8rem, 30vh, 15rem);
-  height: auto;
+.logo {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;  
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
 }
+
+/* espacio entre palabras en el logo */
+.logo-space {
+  margin-left: 0.20em;
+}
+
+
 
 /* header -----------------------------------------------------------*/
 
@@ -280,12 +298,6 @@ a {
   /* background-color: red; */
 }
 
-/* contenedor con ancho limitado */
-.container-limit {
-  max-width: 1600px;
-  margin: 0 auto;  
-}
-
 .hero__content {
   display: flex;
   flex-direction: column;
@@ -295,31 +307,29 @@ a {
   width: 100%;  
 
   padding-top: clamp(9rem, 20vh, 12rem); 
-  padding-left: clamp(4rem, 5vw, 6rem); 
   gap: clamp(2rem, 5vh, 4rem);  
 }
 
 .hero__title {
   font-size: clamp(2.2rem, 2.5vw, 3.2rem);
-  /* font-size: clamp(2rem, 4vw, 3.5rem); */  
-
-  font-weight: 500;
-  line-height: 1.2;
+  font-weight: 600;
+  line-height: 1.15;
+  max-width: 20ch;  /* limita el ancho según caracteres, no porcentaje */
   color: #FAF7F4;
-  max-width: 50%;
+  max-width: 45%;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
 }
 
 .hero__subtitle {  
-  /* font-size: clamp(1.6rem, 1.8vw, 1.8rem); */
   font-size: clamp(1.2rem, 1.8vw, 1.6rem); /* p como h3 */
   font-weight: 400;
   line-height: 1.4;  
   color: #FAF7F4; 
-  max-width: 50%;  
+  max-width: 40%;  
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);  
 }
 
 .btn__hero-cta {
-  /* font-size: clamp(1.2rem, 1.5vw, 1.4rem); */
   font-size: clamp(1.2rem, 1.8vw, 1.6rem); /* COMO H3 */
   font-weight: 500;
   background-color: #1f493d;
@@ -345,7 +355,8 @@ a {
 
 .section__services {
   padding-block: clamp(5rem, 8vw, 8rem);
-  background-color: #FAF7F4; /* ivory */
+  /* background-color: #FAF7F4; ivory */
+  background-color: #f1e7e8; /* soft peach */
 }
 
 .services__grid {
@@ -372,14 +383,16 @@ a {
 }
 
 .service__number {
+  font-family: "Playfair Display", serif;  
   font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 500;
-  color: rgba(167, 110, 69, 0.25);
+  /* color: rgba(167, 110, 69, 0.25); */
+  color: #D9A38F;
   margin-bottom: 1.5rem;
+  opacity: 0.7;
 }
 
 .service__heading {
-  /* font-size: clamp(1.2rem, 2vw, 1.5rem); */
   font-size: clamp(1.2rem, 1.8vw, 1.6rem);
   margin-bottom: 1.2rem;
   line-height: 1.3;
@@ -406,7 +419,8 @@ a {
 /* section ejemplos / examples --------------*/
 
 .section__examples {
-  background-color: #F6F3F0; /* gris calido neutro */
+  /* background-color: #F6F3F0; gris calido neutro */
+    background-color: #FAF7F4; /*ivory*/
 }
 
 .examples__item {
@@ -426,7 +440,6 @@ a {
 }
 
 .examples__description {
-  /* font-size: clamp(0.95rem, 1.2vw, 1rem); */
   font-size: clamp(0.95rem, 1.2vw, 1.05rem);
   /* font-weight: 400; */
   line-height: 1.7;
@@ -501,7 +514,6 @@ a {
 
 /* seccion contacto -------------------------*/
 
-/* section contacto */
 .section__contact {
   background-color: #f1e7e8; /* soft peach */
 }
@@ -659,23 +671,7 @@ a {
   }
 }
 
-/* 
-@keyframes floatPulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.04); }
-  100% { transform: scale(1); }
-}
-
-.whatsapp__float {
-  animation: floatPulse 3.5s ease-in-out infinite;
-} */
-
 /****** fin footer  *****************************************/
-
-
-
-
-
 
 
 
@@ -683,20 +679,21 @@ a {
 
 @media (max-width: 991px) {
 
+  /* logo centrado en mobile */
+  .navbar-brand {
+    margin: 0 auto;
+    padding-left: 0;    
+  }
+    
   /* Espaciado vertical en menú hamburguesa */
   .navbar-nav {
     gap: 0.8rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    /* link a la derecha */
+    /* links a la derecha */
     align-items: flex-end;
     text-align: right;
   }
-
-  /* .navbar-nav .nav-link {
-    padding-bottom: 0.5rem;
-    transition: color 0.2s ease;     
-  } */
 
   /* Texto ligeramente mayor en mobile */
   .navbar-nav .nav-link {
