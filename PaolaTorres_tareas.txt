@@ -62,6 +62,9 @@ https://tudominio.com/sitemap.xml
 
 
 LUNES
+* elegir hosting y subir
+* comprar dominio
+
 * chequear velocidad de carga
 * definir precios por paquete
 * definir detalle de cada paquete
