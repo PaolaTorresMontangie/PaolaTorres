@@ -34,11 +34,17 @@ hacerlo encontrable
 
 
 
-VIERNES
 
-Próximo paso SEO real
 
-Cuando la web esté online:
+
+
+
+
+
+* opegraph, chequear que funcione
+
+
+* Cuando la web esté online:
 
 1️⃣ subir sitemap.xml
 2️⃣ subir robots.txt
@@ -49,7 +55,7 @@ Esto es lo que realmente hace que Google te indexe.
 
 8️⃣ Google Search Console
 
-Después de publicar:
+* Después de publicar:
 
 1️⃣ ir a
 
@@ -64,13 +70,6 @@ https://search.google.com/search-console
 https://tudominio.com/sitemap.xml
 
 
-
-
-
-1200x630
-
-img/og-image.jpg
-* opegraph, falta logoOpengraph o logo en imagen TERMINAR
 * chequear velocidad de carga
 
 LUNES
@@ -96,13 +95,16 @@ AL SUBIR:
 * que nada esté con px
 * arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
 * arreglar visitas guiadas banderitas mobile
+debe ser el index.html principal en inglés en todas las páginas
+<meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
+
 * SUBIR una mujer real a github (con max-width y hero que ocupe 100%) y cambiar titulo y subtitulo por si acaso!
 
 * cambiar mail torresvp x mail info@ en mail visible y en form contacto
-* poner dominio y sacar local
+* poner dominio y sacar local en thanks
 <input type="hidden" name="_next" value="https://paolatorresmontangie.github.io/PaolaTorres/#thanks"> 
 <!-- <input type="hidden" name="_next" value="https://tudominio.com/#gracias">  -->
-
+* cambiar dominio real y sacar github en opengraph
 
 FASE 2
 * detalle de servicios
