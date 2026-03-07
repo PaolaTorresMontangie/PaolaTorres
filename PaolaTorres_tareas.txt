@@ -33,17 +33,6 @@ hacerlo encontrable
 
 
 
-
-
-
-
-
-
-
-
-* opegraph, chequear que funcione
-
-
 * Cuando la web esté online:
 
 1️⃣ subir sitemap.xml
@@ -70,9 +59,10 @@ https://search.google.com/search-console
 https://tudominio.com/sitemap.xml
 
 
-* chequear velocidad de carga
+
 
 LUNES
+* chequear velocidad de carga
 * definir precios por paquete
 * definir detalle de cada paquete
 * armar respuestas guardadas en whatsapp business
