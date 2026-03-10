@@ -14,18 +14,17 @@
     <!-- canonical url pinricipal -->
     <link rel="canonical" href="https://paolatorres.com.ar/">
 
-    <!-- carga de imagen grande del Hero -->
-    <link rel="preload" as="image" href="./img/heroBackgroud.jpg">    
+    <!-- carga de las imagenes del Hero -->
+    <!-- <link rel="preload" as="image" href="./img/heroBackgroud.jpg"> -->
+    <!-- <link rel="preload" as="image" href="./img/heroBackgroud_ultrawide.png">     -->
 
     <!-- Open graph para compartir en redes -->
     <meta property="og:title" content="Paola Torres | Desarrollo web y presencia online para negocios y profesionales">
     <meta property="og:description" content="Ayudo a que tu negocio sea visible en internet con Google Maps, WhatsApp Business, páginas web claras y tiendas online listas para vender.">
     <meta property="og:type" content="website">
     <!-- <meta property="og:url" content="https://paolatorres.com.ar/"> -->    
-    <!-- <meta property="og:url" content="https://paolatorres.com.ar/"> -->
     <!-- <meta property="og:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg"> -->
     <meta property="og:url" content="https://paolatorresmontangie.github.io/PaolaTorres/">     
-    <meta property="og:url" content="https://paolatorresmontangie.github.io/PaolaTorres/index.html">
     <meta property="og:image" content="https://paolatorresmontangie.github.io/PaolaTorres/img/imageOpengraph.jpg">    
 
     <meta property="og:image:alt" content="Paola Torres desarrolladora web">
@@ -123,7 +122,7 @@
                     
                     <a 
                         href="https://wa.me/541167824343?text=Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20servicios."
-                        class="btn btn__hero-cta"
+                        class="btn__hero-cta"
                         target="_blank" rel="noopener noreferrer">
                         Escribime por WhatsApp
                     </a>
@@ -142,69 +141,240 @@
         <!-- SERVICIOS SERVICES -------------------------------------------------------------------->
         <section class="section section__services" id="services">
             <div class="container-limit">
-
+                
                 <div class="section__header">
                     <span class="section__eyebrow">Servicios</span>
-
                     <h2 class="section__title">
-                        Lo esencial para que encuentren tu negocio online
+                    Lo esencial para que encuentren tu negocio online
                     </h2>
-
                     <p class="section__description">
-                        No necesitás saber de tecnología. Yo te explico y lo hacemos paso a paso.
+                    No necesitás saber de tecnología. Yo te explico y lo hacemos paso a paso.
                     </p>
                 </div>
 
                 <div class="services__grid">
 
+                    <!-- SERVICIO 1 -->
                     <article class="service__card">
-                    <div class="service__card-content">
+                        <div class="service__card-content">
+
                             <span class="service__number">01</span>
-                            <h3 class="service__heading">Tu negocio visible en Google</h3>
+
+                            <h3 class="service__heading">
+                            Tu negocio en Google
+                            </h3>
+
                             <p class="service__description">
-                            Configuro tu negocio en Google Maps y WhatsApp Business para que puedan encontrarte y escribirte fácilmente.
+                            Configuración de Google Maps y WhatsApp Business para que
+                            puedan encontrarte y escribirte fácilmente.
                             </p>
-                            <a                             
-                            href="https://wa.me/541167824343?text=Quiero%20informaci%C3%B3n%20sobre%20el%20servicio%20Tu%20negocio%20en%20Internet."                             
-                            target="_blank" rel="noopener noreferrer"
-                            class="btn-primary">Mas info</a>
+                        
+                            <p class="service__description">
+                            <!-- <strong>Te pueden encontrar</strong> <br> -->
+                            Tu negocio aparece en Google Maps y los clientes pueden encontrarte y escribirte fácilmente.
+                            Más visibilidad para atraer nuevas consultas.
+                            </p>
+
+                            <button
+                            class="btn-secondary"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#detalle-google">
+                                Qué incluye
+                                <span class="toggle-arrow">▾</span>                            
+                            </button>
+
+                            <div class="collapse service__details" id="detalle-google">
+                                
+                                <strong>Google Maps</strong>
+
+                                <ul>
+                                    <li>Creación de ficha del negocio en Google Maps</li>
+                                    <li>Configuración completa del perfil del negocio</li>
+                                    <li>Carga de información principal (dirección, horario, teléfono, redes y web)</li>
+                                    <li>Configuración de categoría y rubro del negocio en Google Maps</li>
+                                    <li>Carga de logo e imágenes del negocio (si el cliente las tiene)</li>
+                                    <li>Orientación sobre cómo solicitar reseñas a clientes</li>
+                                    <li>Guía básica para responder reseñas</li>
+                                </ul>
+
+                                <strong>WhatsApp Business</strong>
+
+                                <ul>
+                                    <li>Configuración completa del perfil</li>
+                                    <li>Mensaje automático de bienvenida</li>
+                                    <li>Mensaje automático de ausencia</li>
+                                    <li>Respuestas rápidas guardadas</li>
+                                    <li>Etiquetas para organizar conversaciones</li>
+                                    <li>Carga de catálogo de productos (hasta 15 productos)</li>
+                                    <li>Guía básica de uso de la aplicación</li>
+                                    <li>Creación de enlace directo de WhatsApp para compartir en redes o web</li>
+                                </ul>
+
+                                <p class="service__time">
+                                Tiempo estimado: 3 a 5 días hábiles
+                                </p>
+                            </div>
+                                <a
+                                href="https://wa.me/541167824343?text=Hola%20Paola,%20quiero%20consultar%20por%20el%20servicio%20de%20Google%20Maps%20y%20WhatsApp%20Business."
+                                class="btn-primary"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Consultar este servicio
+                                </a>
                         </div>
                     </article>
 
+                    <!-- SERVICIO 2 -->
                     <article class="service__card">
-                        <div class="service__card-content">                      
+                        <div class="service__card-content">
+
                             <span class="service__number">02</span>
-                            <h3 class="service__heading">Página web clara y profesional</h3>
+
+                            <h3 class="service__heading">
+                            Página web clara y profesional
+                            </h3>
+
                             <p class="service__description">
-                            Una página que explique quién sos, qué ofrecés y cómo contactarte. Solo lo esencial, bien presentado.
+                            Una página simple para explicar tu negocio,
+                            mostrar lo que ofrecés y facilitar el contacto.
                             </p>
-                            <a                             
-                            href="https://wa.me/541167824343?text=Quiero%20informaci%C3%B3n%20sobre%20el%20servicio%20Web%20clara%20y%20profesional."
-                                
-                            target="_blank" rel="noopener noreferrer"
-                            class="btn-primary">Mas info</a>
-                        </div>                          
+
+                            <p class="service__description">
+                            <!-- <strong>Te pueden conocer</strong> <br> -->
+                            Una página web clara y profesional que explica tu negocio y genera la confianza necesaria para que los clientes te elijan.
+                            </p>
+
+                            <button 
+                            class="btn-secondary"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#detalle-web">
+                                Qué incluye
+                                <span class="toggle-arrow">▾</span>
+                            </button>
+
+                            <div class="collapse service__details" id="detalle-web">
+                                <strong>Página web</strong>
+                                <ul>
+                                    <li>Página de inicio</li>
+                                    <li>Sección de servicios o productos (hasta 5 servicios/productos)</li>
+                                    <li>Sección sobre el negocio o profesional</li>
+                                    <li>Sección de contacto</li>
+                                    <li>Botón flotante de WhatsApp</li>
+                                    <li>Dirección o mapa del negocio cuando corresponde</li>
+                                    <li>Diseño adaptable a celular, tablet y computadora</li>
+                                    <li>Optimización básica para buscadores (SEO inicial)
+                                    para que la página pueda aparecer en Google.</li>
+                                    <li>Acompañamiento durante el proceso y explicación clara de cada paso.</li>
+                                </ul>
+
+                                <strong>Opcionales</strong>
+                                <ul>
+                                    <li>Sección de reseñas o testimonios de clientes</li>
+                                    <li>Sección de autoridad o logros del negocio
+                                    (por ejemplo: clientes atendidos, empresas con las que trabajó, zonas de servicio)</li>
+                                </ul>
+
+                                <p class="service__time">
+                                Tiempo estimado: 15 a 20 días hábiles
+                                </p>
+                            </div>
+                            <a
+                            href="https://wa.me/541167824343?text=Hola%20Paola,%20quiero%20consultar%20por%20el%20servicio%20de%20página%20web."
+                            class="btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Consultar este servicio
+                            </a>
+                        </div>
                     </article>
 
+                    <!-- SERVICIO 3 -->
                     <article class="service__card">
-                        <div class="service__card-content">  
-                            <span class="service__number">03</span>
-                            <h3 class="service__heading">Tienda online en Tienda Nube</h3>
-                            <p class="service__description">
-                            Configuro tu tienda con productos, pagos y envíos. Te enseño cómo gestionarla con confianza.
-                            </p>
-                            <a                             
-                            href="https://wa.me/541167824343?text=Quiero%20informaci%C3%B3n%20sobre%20el%20servicio%20Tienda%20online%20configurada."                            
-                            target="_blank" rel="noopener noreferrer"
-                            class="btn-primary">Mas info</a>
-                        </div>                            
-                    </article>
+                        <div class="service__card-content">
 
+                            <span class="service__number">03</span>
+                            <h3 class="service__heading">
+                            Tienda online lista para vender
+                            </h3>
+
+                            <p class="service__description">
+                            Configuración inicial de una tienda en Tienda Nube
+                            para comenzar a vender online.
+                            </p>
+                            
+                            <p class="service__description">
+                            <!-- <strong>Te pueden comprar</strong> <br> -->
+                            Una tienda online que permite vender las 24 horas y recibir pedidos desde cualquier lugar del país.
+                            Más ventas sin depender del horario del negocio.
+                            </p>
+                       
+                            
+                            <button 
+                            class="btn-secondary"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#detalle-tienda">
+                                Qué incluye
+                                <span class="toggle-arrow">▾</span>                            
+                            </button>
+
+                            <div class="collapse service__details" id="detalle-tienda">
+                                <strong>Configuración de la tienda</strong>
+                                <ul>
+                                    <li>Configuración inicial de la tienda</li>
+                                    <li>Configuración de menús</li>
+                                    <li>Configuración de carrusel en página principal</li>
+                                </ul>
+
+                                <strong>Pagos y envíos</strong>
+                                <ul>
+                                    <li>Configuración de medios de pago</li>
+                                    <li>Configuración de formas de envío</li>
+                                    <li>Integración con servicios de correo o paquetería</li>
+                                </ul>
+
+                                <strong>Promociones</strong>
+                                <ul>
+                                    <li>Configuración de cupón de descuento</li>
+                                    <li>Configuración de envío gratis a partir de determinado monto</li>
+                                </ul>
+
+                                <strong>Productos</strong>
+                                <ul>
+                                    <li>Carga inicial de hasta 15 productos</li>
+                                </ul>
+
+                                <strong>Capacitación</strong>
+                                <ul>
+                                    <li>Capacitación básica para administrar la tienda
+                                    (carga de productos, gestión de pedidos y funcionamiento general)</li>
+                                </ul>
+
+                                <p class="service__time">
+                                Tiempo estimado: hasta 21 días hábiles
+                                </p>
+                            </div>
+
+                            <a
+                            href="https://wa.me/541167824343?text=Hola%20Paola,%20quiero%20consultar%20por%20el%20servicio%20de%20tienda%20online."
+                            class="btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Consultar este servicio
+                            </a>
+                        </div>
+                    </article>
                 </div>
 
+                <!-- SERVICIO 4 -->
+                <p class="services__extra">
+
+                También realizo <strong>desarrollo web a partir de diseños existentes</strong>
+                (Figma u otras herramientas) para diseñadores o agencias.
+                Cada proyecto se cotiza según su complejidad.
+                </p>
+                
             </div>
         </section>
-
 
 
         <!-- EJEMPLOS EXAMPLES -------------------------------------------------------------------->        
@@ -231,7 +401,7 @@
                     <div>
                         <h3 class="examples__heading">Visitas Guiadas en inglés</h3>
                         <p class="examples__description">Sitio bilingüe con prioridad en inglés, preparado para aparecer cuando turistas estadounidenses buscan visitas guiadas.</p>
-                        <a href="https://paolatorresmontangie.github.io/BAthematicwalkingtours/index.html" target="_blank" class="btn btn-secondary">Ver sitio</a>
+                        <a href="https://paolatorresmontangie.github.io/BAthematicwalkingtours/index.html" target="_blank" class="btn-secondary">Ver sitio</a>
                     </div>
 
                     <div class="examples__mockups">
@@ -253,7 +423,7 @@
                     <div>
                         <h3 class="examples__heading">Asesoría de imagen</h3>
                         <p class="examples__description">Rediseño del sitio, con una estética femenina equilibrada y cálida, pensada para transmitir cercanía y confianza.</p>
-                        <a href="https://paolatorresmontangie.github.io/Unamujerreal/" target="_blank" class="btn btn-secondary">Ver sitio</a>
+                        <a href="https://paolatorresmontangie.github.io/Unamujerreal/" target="_blank" class="btn-secondary">Ver sitio</a>
                     </div>
 
                     <div class="examples__mockups">
@@ -276,7 +446,7 @@
                     <div>
                         <h3 class="examples__heading">Desarrollo de tienda online</h3>
                         <p class="examples__description">Programación a partir de un diseño previo, cuidando que cada detalle funcione correctamente en todas las pantallas.</p>
-                        <a href="https://paolatorresmontangie.github.io/Lowtian/" target="_blank" class="btn btn-secondary">Ver sitio</a>
+                        <a href="https://paolatorresmontangie.github.io/Lowtian/" target="_blank" class="btn-secondary">Ver sitio</a>
                     </div>
 
                     <div class="examples__mockups">
@@ -299,7 +469,7 @@
                         <h3 class="examples__heading">Tienda online configurada para vender</h3>
                         <p class="examples__description">Configuración completa con productos, medios de pago y envíos integrados.
                         Proceso de compra claro, fácil de administrar y respaldado por una plataforma reconocida que brinda seguridad al comprador.</p>
-                        <a href="https://www.tacodereina.com.ar/" target="_blank" class="btn btn-secondary">Ver sitio</a>
+                        <a href="https://www.tacodereina.com.ar/" target="_blank" class="btn-secondary">Ver sitio</a>
                     </div>
 
                     <div class="examples__mockups">

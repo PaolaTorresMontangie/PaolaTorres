@@ -160,20 +160,26 @@ a {
   font-weight: 500;
   background-color: transparent;
   color: #a76e45;
-  border: 1px solid #a76e45;     
-  /* margin-top: clamp(1.5rem, 3vw, 2rem); */
+  /* border: 1px solid #a76e45; */
+  border: 1px solid rgba(167, 110, 69, 0.5);
   align-self: flex-start;
-  padding: 0.8rem 1.6rem;
+  /* padding: 0.8rem 1.6rem; */
+  padding: 0.35rem 0.9rem;
   border-radius: 10px;
   text-decoration: none;
   transition: all 0.3s ease;
-  box-shadow: none; 
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
 .btn-secondary:hover {
-  background-color: #f3e4dd;
-  border: 1.5px solid #D9A38F;  
+  /* background-color: #f3e4dd; */
+  /* background-color: #f4e3dd; */
+  /* border: 1px solid #a76e45; */
+  border-color: #e5e0dc;
   color: #a76e45;  
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);    
+  /* font-size: clamp(0.76rem, 0.9vw, 0.85rem); */
+  /* transition: transform 0.25s ease; */
 }
 
 .microtext {
@@ -196,7 +202,7 @@ a {
 .custom-navbar {
   background-color: #FAF7F4;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   */
   z-index: 2000;
 }
 
@@ -239,12 +245,18 @@ a {
   padding: 0;
 }
 
+
 .logo {
   font-family: "Playfair Display", serif;
   font-weight: 600;  
   font-size: clamp(1.4rem, 2vw, 1.8rem);
   text-transform: uppercase;
   letter-spacing: 0.14em;
+}
+
+.logo:hover {
+  font-weight: 650;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);  
 }
 
 /* espacio entre palabras en el logo */
@@ -258,9 +270,6 @@ a {
 
 .header {   
   background:
-    /* linear-gradient(to left, rgba(0,0,0,0.35), transparent 30%),
-    linear-gradient(90deg, rgba(167,110,69,0.95) 0%, rgba(167,110,69,0) 70%), */
-
     /* sombra derecha */
     linear-gradient(to left, rgba(0,0,0,0.45), rgba(0,0,0,0) 35%),
 
@@ -273,8 +282,7 @@ a {
       rgba(167,110,69,0) 75%
     ),
     
-    
-    url("../img/heroBackgroud.jpg");
+    url("../img/heroBackgroud.jpg");    
 
   background-size:
     100% 100%,   /* gradiente derecha */
@@ -292,6 +300,7 @@ a {
     box-shadow: inset 0 0 200px rgba(0,0,0,0.25);       
 
     height: clamp(600px, 85vh, 900px);
+    /* height: 100vh; */
 }
 
 .section__hero {
@@ -355,7 +364,6 @@ a {
 
 .section__services {
   padding-block: clamp(5rem, 8vw, 8rem);
-  /* background-color: #FAF7F4; ivory */
   background-color: #f1e7e8; /* soft peach */
 }
 
@@ -369,7 +377,11 @@ a {
 .service__card {
   display: flex;
   flex-direction: column;  
-  padding: clamp(2rem, 3vw, 3.5rem);
+  /* padding-left: clamp(2rem, 3vw, 3.5rem);
+  padding-right: clamp(2rem, 3vw, 3.5rem);
+  padding-top: clamp(1.5rem, 2.5vw, 3rem);
+  padding-bottom: clamp(2rem, 3vw, 3.5rem); */
+  padding: clamp(2rem, 2.5vw, 3em);
   border: 1px solid #e5e0dc;
   background-color: #ffffff;
   border-radius: 16px; /* antes era cuadrado */
@@ -382,38 +394,88 @@ a {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
+.service__card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+}
+
 .service__number {
   font-family: "Playfair Display", serif;  
   font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 500;
-  /* color: rgba(167, 110, 69, 0.25); */
   color: #D9A38F;
-  margin-bottom: 1.5rem;
-  opacity: 0.7;
+  opacity: 0.6;  
+  margin-bottom: 1rem; /* extra al gap */
 }
 
 .service__heading {
   font-size: clamp(1.2rem, 1.8vw, 1.6rem);
-  margin-bottom: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   line-height: 1.3;
   color: #1f493d;
+  /* margin-bottom: 0.8rem; */ /* queda 0.2rem mas grande */
 }
 
 .service__description {
   font-size: clamp(0.95rem, 1.2vw, 1.05rem);
   line-height: 1.7;
-  /* color: #555; */
   color: #595959;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */ /* queda 1rem menos de aire */
 }
 
-.service__card-content {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+/* .service__result {
+  font-size: clamp(0.9rem, 1vw, 1rem);  
+  color: #336659;
+  margin-top: 1.5rem;
+  line-height: 1.7;
+} */
+/* 
+.toggle-arrow {
+  font-size: 0.85rem;
+  transition: transform 0.25s ease;
 }
+
+.collapse.show + .toggle-arrow {
+  transform: rotate(180deg);
+} */
+
+/* .btn-secondary[aria-expanded="true"] .toggle-arrow {
+transform: rotate(180deg);
+} */
+
+/* lista de items que incluye */
+.service__details {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e0dc;
+  /* background-color: rgba(255, 192, 203, 0.26); */
+}
+
+.service__details ul {
+  padding-left: 1.2rem;
+  margin: 0.8rem 0 1.2rem 0;
+  line-height: 1.6;
+  color: #595959;
+}
+
+.service__time {
+  font-size: 0.9rem;
+  color: #666;
+}
+
 .service__card-content .btn-primary {
   margin-top: auto;
+}
+
+/* detalle de cuarto servicio de maquetacion */
+.services__extra {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #595959;
 }
 
 /* section ejemplos / examples --------------*/
@@ -499,7 +561,7 @@ a {
   border: 1.5px solid rgba(0,0,0,0.08);
   box-shadow:
     0 35px 70px rgba(0,0,0,0.28),
-   0 10px 25px rgba(0,0,0,0.18);
+    0 10px 25px rgba(0,0,0,0.18);
 
   z-index: 2;
 }
@@ -718,6 +780,33 @@ a {
 
 /* PANTALLAS MUY GRANDES ***************************************/
 @media (min-width: 2400px) {
+  /* header MEDIAQUERY -------------------------------------- */    
+  
+  /* cambio la imagen del hero y intensifico sombra */
+  .header {
+    background:
+      linear-gradient(
+        to left,
+        rgba(0,0,0,0.6) 0%,
+        rgba(0,0,0,0.45) 25%,
+        rgba(0,0,0,0.25) 50%,
+        rgba(0,0,0,0.1) 70%,
+        rgba(0,0,0,0) 85%
+      ),
+      linear-gradient(
+        90deg,
+        rgba(120,75,45,1) 0%,
+        rgba(167,110,69,0.95) 30%,
+        rgba(167,110,69,0.6) 55%,
+        rgba(167,110,69,0) 75%
+      ),
+      url("../img/heroBackgroud_ultrawide.png");
+
+    background-size: 100% 100%, 100% 100%, cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    /* background-position: 60%; */
+  } 
+
 
 }
 
@@ -744,30 +833,6 @@ a {
   /* header MEDIAQUERY -------------------------------------- */    
   
   /* acomodo la imagen del hero */
-  .header {
-    background:
-      linear-gradient(
-        to left,
-        rgba(0,0,0,0.6) 0%,
-        rgba(0,0,0,0.45) 25%,
-        rgba(0,0,0,0.25) 50%,
-        rgba(0,0,0,0.1) 70%,
-        rgba(0,0,0,0) 85%
-      ),
-      linear-gradient(
-        90deg,
-        rgba(120,75,45,1) 0%,
-        rgba(167,110,69,0.95) 30%,
-        rgba(167,110,69,0.6) 55%,
-        rgba(167,110,69,0) 75%
-      ),
-      url("../img/heroBackgroud.jpg");
-
-    background-size: 100% 100%, 100% 100%, cover;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 60%;
-  }
-
   .hero__content {
     padding-left: 1.5rem;
     padding-right: 1.5rem;

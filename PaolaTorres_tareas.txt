@@ -1,16 +1,3 @@
-
-
-**
-$color-soft-gold:    
-#D6B58A
-
-$color-rose-powder:  
-#E9B7C1
-
-***
-
-
---------------------------------------------------------------------
 DISEÑO EMILY
 
 numeros grandes #bcb2a0
@@ -23,6 +10,7 @@ otra seccion
 #d4cdc4 rectangulo arriba con letras claras
 #efedec rectangulo abajo con mucho texto arriba oscuro
 #afa29d seccion newsletter
+
 ********************************
 
 Tu servicio realmente es:
@@ -30,8 +18,11 @@ hacer visible un negocio
 ponerlo en el mapa digital
 hacerlo encontrable
 
+más visibilidad, más confianza, más ventas.
 
 
+* elegir hosting y subir
+* comprar dominio paolatorres.com.ar y paolatorres.com
 
 * Cuando la web esté online:
 
@@ -39,53 +30,18 @@ hacerlo encontrable
 2️⃣ subir robots.txt
 3️⃣ registrar en Google Search Console
 
-Esto es lo que realmente hace que Google te indexe.
-
-
-8️⃣ Google Search Console
-
-* Después de publicar:
-
-1️⃣ ir a
-
-https://search.google.com/search-console
-
-2️⃣ agregar dominio
-
-3️⃣ verificar DNS
-
-4️⃣ enviar sitemap
-
-https://tudominio.com/sitemap.xml
-
-
-
-
-LUNES
-* elegir hosting y subir
-* comprar dominio
-
 * chequear velocidad de carga
-* definir precios por paquete
-* definir detalle de cada paquete
-* armar respuestas guardadas en whatsapp business
 
-MARTES
-* reseña positiva Agencia Urban y avisarles
-* pensar mensaje para las disintas personas a las que deseo avisarles
-
-OTROS
-* agregar autoridad! coso verde!
-* flecha para rriba
-* hero en monitor samsung tiene demasiado aire a la izq (agrandar imagen a la derecha)
-* grid con column y row para que siempre esté centrado en ancho y alto
 * contacto: como hacer que la imagen no quede volando?
 * falta target="_blank" rel="noopener noreferrer" en mail directo!
-
+* agregar autoridad! coso verde!
+* descomentar todo
+* que nada esté con px
 
 AL SUBIR: 
+* descomentar preload!??
 * estadisitcas que muestran que tipo de pantalla utilizan
-* que nada esté con px
+
 * arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
 * arreglar visitas guiadas banderitas mobile
 debe ser el index.html principal en inglés en todas las páginas
@@ -99,38 +55,17 @@ debe ser el index.html principal en inglés en todas las páginas
 <!-- <input type="hidden" name="_next" value="https://tudominio.com/#gracias">  -->
 * cambiar dominio real y sacar github en opengraph
 
+
+
 FASE 2
-* detalle de servicios
-📱 “Puesta a punto de WhatsApp Business”
+* animar la flechita para desplegar servicios
+* reseña positiva Agencia Urban y avisarles
+* pensar mensaje para las disintas personas a las que deseo avisarles
+* armar respuestas guardadas en whatsapp business
+* flecha para arriba
+* hero agrandar lado izquierdo con plantas
+* grid con column y row para que siempre esté centrado en ancho y alto
 
-Incluye:
-✔ Configuración de perfil
-✔ Descripción clara
-✔ Servicios cargados
-✔ Horarios
-✔ Respuestas rápidas
-✔ Etiquetas organizadas
-✔ Mensaje automático de bienvenida
-
-Podría ser:
-
-🔹 Servicio independiente
-🔹 O pack junto a Google Maps (Presencia Digital Básica)
-
-Ejemplo de paquete:
-
-Presencia Digital Inicial
-
-Google Maps optimizado
-
-WhatsApp Business optimizado
-
-Link directo para compartir
-
-Guía básica de uso
-
-
-* detalle de servicio expandido ? * ver detalles por MAS INFO si no lo expando
 * investigar como se hace el newsletter desde Tienda Nube
 * investigar web con noticias de redes sociales
 https://www.reddit.com/r/SocialMediaMarketing/comments/1oj2hbp/how_do_you_keep_your_websites_social_media/?tl=es-419
