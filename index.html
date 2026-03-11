@@ -15,17 +15,15 @@
     <link rel="canonical" href="https://paolatorres.com.ar/">
 
     <!-- carga de las imagenes del Hero -->
-    <!-- <link rel="preload" as="image" href="./img/heroBackgroud.jpg"> -->
-    <!-- <link rel="preload" as="image" href="./img/heroBackgroud_ultrawide.png">     -->
+    <link rel="preload" as="image" href="./img/heroBackgroud.jpg">
+    <link rel="preload" as="image" href="./img/heroBackgroud_ultrawide.png">    
 
     <!-- Open graph para compartir en redes -->
     <meta property="og:title" content="Paola Torres | Desarrollo web y presencia online para negocios y profesionales">
     <meta property="og:description" content="Ayudo a que tu negocio sea visible en internet con Google Maps, WhatsApp Business, páginas web claras y tiendas online listas para vender.">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:url" content="https://paolatorres.com.ar/"> -->    
-    <!-- <meta property="og:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg"> -->
-    <meta property="og:url" content="https://paolatorresmontangie.github.io/PaolaTorres/">     
-    <meta property="og:image" content="https://paolatorresmontangie.github.io/PaolaTorres/img/imageOpengraph.jpg">    
+    <meta property="og:url" content="https://paolatorres.com.ar/">
+    <meta property="og:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg">    
 
     <meta property="og:image:alt" content="Paola Torres desarrolladora web">
     <meta property="og:image:width" content="1200">
@@ -38,8 +36,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Paola Torres | Desarrollo web y presencia online para negocios y profesionales">
     <meta name="twitter:description" content="Desarrollo web y presencia online para negocios.">
-    <!-- <meta name="twitter:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg"> -->
-    <meta name="twitter:image" content="https://paolatorresmontangie.github.io/PaolaTorres/img/imageOpengraph.jpg">
+    <meta name="twitter:image" content="https://paolatorres.com.ar/img/imageOpengraph.jpg">
 
     <!-- favicon letra P fondo verde -->
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon_io/apple-touch-icon.png">
@@ -62,20 +59,57 @@
     <script type="application/ld+json">
     {
     "@context": "https://schema.org",
-    "@type": "Person",
+    "@type": "ProfessionalService",
     "name": "Paola Torres",
-    "jobTitle": "Desarrolladora web",
     "url": "https://paolatorres.com.ar",
-    "description": "Desarrollo web y presencia online para negocios",
+    "description": "Desarrollo web y presencia online para negocios. Google Maps, WhatsApp Business, páginas web claras y tiendas online.",
+    "areaServed": {
+    "@type": "Country",
+    "name": "Argentina"
+    },
+    "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+54-11-6782-4343",
+    "contactType": "customer service",
+    "availableLanguage": ["Spanish"]
+    },
+    "sameAs": [
+    "https://wa.me/541167824343"
+    ],
     "knowsAbout": [
     "Google Maps para negocios",
     "WhatsApp Business",
     "Desarrollo web",
     "Tiendas online",
-    "Tienda Nube"
+    "Tienda Nube",
+    "Maquetación web"
+    ],
+    "makesOffer": [
+    {
+        "@type": "Offer",
+        "itemOffered": {
+        "@type": "Service",
+        "name": "Configuración de Google Maps y WhatsApp Business"
+        }
+    },
+    {
+        "@type": "Offer",
+        "itemOffered": {
+        "@type": "Service",
+        "name": "Desarrollo de páginas web para negocios"
+        }
+    },
+    {
+        "@type": "Offer",
+        "itemOffered": {
+        "@type": "Service",
+        "name": "Configuración de tienda online"
+        }
+    }
     ]
     }
-    </script>    
+    </script>
+
 </head>
 <body>
 
@@ -97,10 +131,10 @@
                     <!-- ms-auto empuje a la derecha -->
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                        <li class="nav-item"><a class="nav-link fw-medium" aria-current="page" href="./#home">Inicio</a></li>                            
-                        <li class="nav-item"><a class="nav-link fw-medium" href="./#services">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link fw-medium" href="./#examples">Trabajos</a></li>
-                        <li class="nav-item"><a class="nav-link fw-medium" href="./#contact">Contacto</a></li>                    
+                        <li class="nav-item"><a class="nav-link fw-medium" aria-current="page" href="#home">Inicio</a></li>                            
+                        <li class="nav-item"><a class="nav-link fw-medium" href="#services">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link fw-medium" href="#examples">Trabajos</a></li>
+                        <li class="nav-item"><a class="nav-link fw-medium" href="#contact">Contacto</a></li>                    
                                                                         
                     </ul>
 
@@ -136,7 +170,7 @@
     </header>
 
 
-    <main>
+    <main id="main-content">
 
         <!-- SERVICIOS SERVICES -------------------------------------------------------------------->
         <section class="section section__services" id="services">
@@ -374,6 +408,13 @@
                 </p>
                 
             </div>
+
+            <!-- texto oculto para SEO -->
+            <p class="visually-hidden">
+            Servicios de desarrollo web para negocios y profesionales.
+            Configuración de Google Maps, WhatsApp Business, páginas web claras
+            y tiendas online listas para vender en Argentina.
+            </p>            
         </section>
 
 
@@ -401,7 +442,7 @@
                     <div>
                         <h3 class="examples__heading">Visitas Guiadas en inglés</h3>
                         <p class="examples__description">Sitio bilingüe con prioridad en inglés, preparado para aparecer cuando turistas estadounidenses buscan visitas guiadas.</p>
-                        <a href="https://paolatorresmontangie.github.io/BAthematicwalkingtours/index.html" target="_blank" class="btn-secondary">Ver sitio</a>
+                        <a href="https://paolatorresmontangie.github.io/BAthematicwalkingtours/" target="_blank" class="btn-secondary">Ver sitio</a>
                     </div>
 
                     <div class="examples__mockups">
@@ -581,11 +622,8 @@
                             <!-- campos ocultos -->
                             <input type="hidden" name="_subject" value="Nuevo mensaje desde tu web">
                             <input type="hidden" name="_template" value="table">
-                            <input type="hidden" name="_captcha" value="false">
-
-                            <input type="hidden" name="_next" value="https://paolatorresmontangie.github.io/PaolaTorres/#thanks">                            
-                            <!-- <input type="hidden" name="_next" value="http://localhost:5500/index.html#thanks"> -->
-
+                            <input type="hidden" name="_captcha" value="false">                            
+                            <input type="hidden" name="_next" value="https://paolatorres.com.ar/#thanks">                            
                             <input type="text" name="_honey" style="display:none">
 
                             <button type="submit" class="btn-primary">Enviar</button>
@@ -636,7 +674,7 @@
                 
     </main>
 
-
+    <!-- footer -------------------------------------------------------------------->
     <footer class="site__footer">
         <div class="container-limit">
             <p class="footer__tagline">
@@ -656,6 +694,9 @@
         <img class="whatsapp__icon" src="./img/iconowhatsappFlotante.svg" alt="WhatsApp">
     </a>
 
+    <!------------------------------------------------------------------------------>
+     
+    
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>   
 
@@ -705,7 +746,7 @@
     });
 
     });
-    </script>    
+    </script>
 
 </body>
 </html>

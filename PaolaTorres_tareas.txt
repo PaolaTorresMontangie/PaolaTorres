@@ -19,45 +19,60 @@ ponerlo en el mapa digital
 hacerlo encontrable
 
 más visibilidad, más confianza, más ventas.
+Te encuentren - te conocen - te compran
+********************************
 
 
-* elegir hosting y subir
-* comprar dominio paolatorres.com.ar y paolatorres.com
+
+(* asociar dominio)
+* subir github y hostinger
+* crear mail corpo
+* cambiar gmail
+
+
+
 
 * Cuando la web esté online:
-
 1️⃣ subir sitemap.xml
 2️⃣ subir robots.txt
 3️⃣ registrar en Google Search Console
 
+
+
+
+
+* indexación
+ conectar Google Search Console
+ enviar sitemap
+
+
 * chequear velocidad de carga
-
-* contacto: como hacer que la imagen no quede volando?
-* falta target="_blank" rel="noopener noreferrer" en mail directo!
-* agregar autoridad! coso verde!
-* descomentar todo
-* que nada esté con px
-
-AL SUBIR: 
-* descomentar preload!??
-* estadisitcas que muestran que tipo de pantalla utilizan
-
 * arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
 * arreglar visitas guiadas banderitas mobile
+
+* visitas guiadas
 debe ser el index.html principal en inglés en todas las páginas
 <meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
 
 * SUBIR una mujer real a github (con max-width y hero que ocupe 100%) y cambiar titulo y subtitulo por si acaso!
 
 * cambiar mail torresvp x mail info@ en mail visible y en form contacto
-* poner dominio y sacar local en thanks
-<input type="hidden" name="_next" value="https://paolatorresmontangie.github.io/PaolaTorres/#thanks"> 
-<!-- <input type="hidden" name="_next" value="https://tudominio.com/#gracias">  -->
-* cambiar dominio real y sacar github en opengraph
+
+* pasar mis proyectos de github a Behance (y mas trabajos que vayan a behance)
+* estadisitcas que muestran que tipo de pantalla utilizan
+* cuidado con el mantenimiento de hosting, dominio para 02 y de tienda nube para 03, ver si hay que tocar 
+algun texto del sitio
+
+* terminar de armar respuestas automáticas para WB a las consultas
+* terminar de armar presupuesto con MONTO para cada servicio (basado en Lowtian)
 
 
 
 FASE 2
+* contacto: como hacer que la imagen no quede volando?
+* falta target="_blank" rel="noopener noreferrer" en mail directo!
+* agregar autoridad! coso verde!
+
 * animar la flechita para desplegar servicios
 * reseña positiva Agencia Urban y avisarles
 * pensar mensaje para las disintas personas a las que deseo avisarles
