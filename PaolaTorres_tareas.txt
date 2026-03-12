@@ -25,34 +25,6 @@ Te encuentren - te conocen - te compran
 
 
 
-6️⃣ Activar SSL
-
-Cuando el dominio esté conectado:
-
-Security
-SSL
-
-Activar SSL gratuito.
-
-Tu web quedará:
-
-https://paolatorres.com
-7️⃣ Redireccionar el dominio temporal
-
-Cuando todo funcione, podés ignorar el dominio temporal:
-
-floralwhite-oyster-697714.hostingersite.com
-
-Tu sitio ya estará en tu dominio real.
-
-
-
-* Cuando la web esté online:
-3️⃣ registrar en Google Search Console
-* indexación
-
-
-
 
 
 
@@ -90,6 +62,11 @@ algun texto del sitio
 
 * terminar de armar respuestas automáticas para WB a las consultas
 * terminar de armar presupuesto con MONTO para cada servicio (basado en Lowtian)
+
+
+
+**** site:paolatorres.com.ar
+Si aparece tu página → ya está indexada.
 
 
 FASE 2
@@ -130,6 +107,38 @@ Si querés, en el próximo mensaje puedo mostrarte:
 
 (incluye FAQ schema + LocalBusiness + rich results).
 
+*****
+
+Si querés, en el próximo mensaje te puedo mostrar algo que puede cambiar bastante tu SEO:
+
+🚀 cómo hacer que tu web aparezca en búsquedas como
+crear página web para negocio
+desarrollo web argentina
+tienda nube configuración
+
+con solo 3 pequeñas modificaciones en tu HTML.
+
+***
+
+💡 Te dejo algo útil: cuando tu web esté online podemos hacer un test SEO completo en 30 segundos que muestra si Google la puede leer perfecto.
+Es una herramienta que usan bastante las agencias para revisar sitios nuevos.
+
+***
+
+⭐ Última mejora SEO muy potente (te la recomiendo)
+
+Agregar FAQ Schema.
+
+Esto puede hacer que Google muestre tu página así:
+
+Paola Torres - Desarrollo web
+❓ ¿Cuánto cuesta una página web?
+❓ ¿Cuánto tarda hacer una web?
+❓ ¿Se puede vender online?
+
+y ocupa más espacio en resultados de búsqueda.
+
+Si querés, te preparo 3 preguntas perfectas para tu servicio y el código listo para pegar en tu HTML.
 
 
 DIFUSION
