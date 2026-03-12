@@ -26,18 +26,6 @@ Te encuentren - te conocen - te compran
 
 
 
-
-
-**********
-
-JUEVES
-* whatsapp que todos digan Paola
-* que funcione bien el form mail
-* cambiar textos en resultado de servicios
-
-
-* crear mail corporativo
-* cambiar mail torresvp x mail info@ en mail visible y en form contacto
 * SUBIR una mujer real a github con otro titulo y subtitulo por si acaso!
 (con max-width y hero que ocupe 100%) 
 
