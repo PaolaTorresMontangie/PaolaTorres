@@ -24,40 +24,65 @@ Te encuentren - te conocen - te compran
 
 
 
-(* asociar dominio)
-* subir github y hostinger
-* crear mail corpo
-* cambiar gmail
 
+6️⃣ Activar SSL
+
+Cuando el dominio esté conectado:
+
+Security
+SSL
+
+Activar SSL gratuito.
+
+Tu web quedará:
+
+https://paolatorres.com
+7️⃣ Redireccionar el dominio temporal
+
+Cuando todo funcione, podés ignorar el dominio temporal:
+
+floralwhite-oyster-697714.hostingersite.com
+
+Tu sitio ya estará en tu dominio real.
 
 
 
 * Cuando la web esté online:
-1️⃣ subir sitemap.xml
-2️⃣ subir robots.txt
 3️⃣ registrar en Google Search Console
-
-
-
-
-
 * indexación
- conectar Google Search Console
- enviar sitemap
 
 
-* chequear velocidad de carga
+
+
+
+
+**********
+
+JUEVES
+* whatsapp que todos digan Paola
+* que funcione bien el form mail
+* cambiar textos en resultado de servicios
+
+
+* crear mail corporativo
+* cambiar mail torresvp x mail info@ en mail visible y en form contacto
+* SUBIR una mujer real a github con otro titulo y subtitulo por si acaso!
+(con max-width y hero que ocupe 100%) 
+
+
+
 * arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
 * arreglar visitas guiadas banderitas mobile
-
 * visitas guiadas
 debe ser el index.html principal en inglés en todas las páginas
 <meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
+* 
 
-* SUBIR una mujer real a github (con max-width y hero que ocupe 100%) y cambiar titulo y subtitulo por si acaso!
 
-* cambiar mail torresvp x mail info@ en mail visible y en form contacto
 
+
+* que al subir a github se suba a hostinger
+* chequear velocidad de carga
 * pasar mis proyectos de github a Behance (y mas trabajos que vayan a behance)
 * estadisitcas que muestran que tipo de pantalla utilizan
 * cuidado con el mantenimiento de hosting, dominio para 02 y de tienda nube para 03, ver si hay que tocar 
@@ -67,16 +92,12 @@ algun texto del sitio
 * terminar de armar presupuesto con MONTO para cada servicio (basado en Lowtian)
 
 
-
 FASE 2
 * contacto: como hacer que la imagen no quede volando?
 * falta target="_blank" rel="noopener noreferrer" en mail directo!
 * agregar autoridad! coso verde!
 
 * animar la flechita para desplegar servicios
-* reseña positiva Agencia Urban y avisarles
-* pensar mensaje para las disintas personas a las que deseo avisarles
-* armar respuestas guardadas en whatsapp business
 * flecha para arriba
 * hero agrandar lado izquierdo con plantas
 * grid con column y row para que siempre esté centrado en ancho y alto
@@ -87,5 +108,36 @@ https://www.reddit.com/r/SocialMediaMarketing/comments/1oj2hbp/how_do_you_keep_y
 https://www.google.com/search?q=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&sca_esv=9a738b84887eecfa&sxsrf=ANbL-n7905L5xFw3bm4A3bM_-rPh0pIA9Q%3A1771768667130&ei=WwubadrPB6jA5OUPv8PfmQc&biw=1366&bih=641&ved=0ahUKEwia6ZzQoO2SAxUoILkGHb_hN3MQ4dUDCBE&uact=5&oq=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&gs_lp=Egxnd3Mtd2l6LXNlcnAiOWNvbW8gaW5jcnVzdGFyIG5vdGljaWFzIGRlIHJlZGVzIHNvY2lhbGVzIGVuIHR1IHNpdGlvIHdlYjIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIESJKcAVAAWJ-SAXAFeACQAQCYAdIBoAHUOKoBBzEwLjUyLjG4AQPIAQD4AQGYAkSgApQ9qAIUwgIHECMYJxjqAsICDRAuGNEDGMcBGCcY6gLCAhAQABgDGLQCGOoCGI8B2AEBwgIQEC4YAxi0AhjqAhiPAdgBAcICChAjGIAEGCcYigXCAgQQIxgnwgINEAAYgAQYsQMYQxiKBcICChAAGIAEGEMYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIQECMY8AUYgAQYJxjJAhiKBcICChAuGIAEGEMYigXCAgoQIxjwBRgnGMkCwgIQEC4YgAQYsQMYQxiDARiKBcICCxAAGIAEGLEDGMkDwgILEAAYgAQYkgMYigXCAgsQLhiABBixAxiDAcICBBAAGAPCAgUQABiABMICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYigXCAgkQABiABBgKGAvCAggQABgIGA0YHsICCBAAGKIEGIkFwgIHEAAYgAQYDcICBhAAGBYYHsICBxAhGKABGArCAgYQIRgVGAqYAxbxBXIfNXyCl2pkugYGCAEQARgKkgcGNS42Mi4xoAfl7AOyBwYwLjYyLjG4B-M8wgcLMC44LjQ2LjEzLjHIB4MDgAgA&sclient=gws-wiz-serp
 
 * diseño de otros templates (ver folletos que junté)
+
+FASE 3
+🚀 Te dejo un truco SEO que casi nadie usa (y sirve mucho)
+
+Como tu web es one page, conviene crear 3 páginas internas falsas para Google.
+
+Ejemplo:
+
+/servicios
+/desarrollo-web
+/tienda-online
+
+Aunque redirijan al home.
+
+Esto puede multiplicar tus posibilidades de ranking.
+
+Si querés, en el próximo mensaje puedo mostrarte:
+
+⭐ Cómo hacer que tu web tenga SEO de agencia grande con solo 15 líneas más de código
+
+(incluye FAQ schema + LocalBusiness + rich results).
+
+
+
+DIFUSION
+
+* reseña positiva Agencia Urban y avisarles
+* pensar mensaje para las disintas personas a las que deseo avisarles (Mica estudiante moda)
+* armar respuestas guardadas en whatsapp business
+
+
 * ver workana
 * hablar agencias, conocidos, Kutty
