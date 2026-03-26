@@ -21,25 +21,36 @@ hacerlo encontrable
 más visibilidad, más confianza, más ventas.
 Te encuentren - te conocen - te compran
 ********************************
+git commit -m "section stats, varibles fonts, colores sin variables, menu hamburguesa se cierre, correciones vs, ajuste tamanios"
+
+* revisar opengraph, no funciona bien
 
 
 
 
 
-* SUBIR una mujer real a github con otro titulo y subtitulo por si acaso!
-(con max-width y hero que ocupe 100%) 
 
 
+* ? cambiar nombre sistema de titulo, que no diga section sino container_title o algo asi (PAOLAT Y GIRAUT)
+* ? ojo con navbar-brand y logotipo, se pueden unificar? (PAOLAT Y GIRAUT)
+* ? implementar variables de clamp? (PAOLAT Y GIRAUT)
+* ? implementar variables de sombra? (PAOLAT Y GIRAUT)
+* ? cambiar nombre sistema de titulo, que no diga section sino container_title o algo asi (PAOLAT Y GIRAUT)
+* ? ojo con navbar-brand y logotipo, se pueden unificar? (PAOLAT Y GIRAUT)
 
-* arreglar en todas mis paginas max-width 1600 o 1660 y formsubit
-* arreglar visitas guiadas banderitas mobile
+
+* chequear mail desde gmail
+
 * visitas guiadas
-debe ser el index.html principal en inglés en todas las páginas
-<meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
-* 
+	* max-width 1600 o 1660
+	* debe ser el index.html principal en inglés en todas las páginas
+	<meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
+
+* terminar de armar respuestas automáticas para WB a las consultas
+* terminar de armar detalle de servicios con footer con mi web y slogan como presupuesto Giraut
 
 
-
+*********************
 
 * que al subir a github se suba a hostinger
 * chequear velocidad de carga
@@ -48,8 +59,6 @@ debe ser el index.html principal en inglés en todas las páginas
 * cuidado con el mantenimiento de hosting, dominio para 02 y de tienda nube para 03, ver si hay que tocar 
 algun texto del sitio
 
-* terminar de armar respuestas automáticas para WB a las consultas
-* terminar de armar presupuesto con MONTO para cada servicio (basado en Lowtian)
 
 
 
@@ -59,7 +68,6 @@ Si aparece tu página → ya está indexada.
 
 FASE 2
 * contacto: como hacer que la imagen no quede volando?
-* falta target="_blank" rel="noopener noreferrer" en mail directo!
 * agregar autoridad! coso verde!
 
 * animar la flechita para desplegar servicios
@@ -68,9 +76,6 @@ FASE 2
 * grid con column y row para que siempre esté centrado en ancho y alto
 
 * investigar como se hace el newsletter desde Tienda Nube
-* investigar web con noticias de redes sociales
-https://www.reddit.com/r/SocialMediaMarketing/comments/1oj2hbp/how_do_you_keep_your_websites_social_media/?tl=es-419
-https://www.google.com/search?q=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&sca_esv=9a738b84887eecfa&sxsrf=ANbL-n7905L5xFw3bm4A3bM_-rPh0pIA9Q%3A1771768667130&ei=WwubadrPB6jA5OUPv8PfmQc&biw=1366&bih=641&ved=0ahUKEwia6ZzQoO2SAxUoILkGHb_hN3MQ4dUDCBE&uact=5&oq=como+incrustar+noticias+de+redes+sociales+en+tu+sitio+web&gs_lp=Egxnd3Mtd2l6LXNlcnAiOWNvbW8gaW5jcnVzdGFyIG5vdGljaWFzIGRlIHJlZGVzIHNvY2lhbGVzIGVuIHR1IHNpdGlvIHdlYjIFEAAY7wUyBRAAGO8FMgUQABjvBTIFEAAY7wUyCBAAGIAEGKIESJKcAVAAWJ-SAXAFeACQAQCYAdIBoAHUOKoBBzEwLjUyLjG4AQPIAQD4AQGYAkSgApQ9qAIUwgIHECMYJxjqAsICDRAuGNEDGMcBGCcY6gLCAhAQABgDGLQCGOoCGI8B2AEBwgIQEC4YAxi0AhjqAhiPAdgBAcICChAjGIAEGCcYigXCAgQQIxgnwgINEAAYgAQYsQMYQxiKBcICChAAGIAEGEMYigXCAhMQLhiABBixAxjRAxhDGMcBGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICCBAAGIAEGLEDwgIQECMY8AUYgAQYJxjJAhiKBcICChAuGIAEGEMYigXCAgoQIxjwBRgnGMkCwgIQEC4YgAQYsQMYQxiDARiKBcICCxAAGIAEGLEDGMkDwgILEAAYgAQYkgMYigXCAgsQLhiABBixAxiDAcICBBAAGAPCAgUQABiABMICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYigXCAgkQABiABBgKGAvCAggQABgIGA0YHsICCBAAGKIEGIkFwgIHEAAYgAQYDcICBhAAGBYYHsICBxAhGKABGArCAgYQIRgVGAqYAxbxBXIfNXyCl2pkugYGCAEQARgKkgcGNS42Mi4xoAfl7AOyBwYwLjYyLjG4B-M8wgcLMC44LjQ2LjEzLjHIB4MDgAgA&sclient=gws-wiz-serp
 
 * diseño de otros templates (ver folletos que junté)
 
@@ -128,6 +133,7 @@ y ocupa más espacio en resultados de búsqueda.
 
 Si querés, te preparo 3 preguntas perfectas para tu servicio y el código listo para pegar en tu HTML.
 
++++++++++++++++++++++++++++++
 
 DIFUSION
 
@@ -137,4 +143,16 @@ DIFUSION
 
 
 * ver workana
-* hablar agencias, conocidos, Kutty
+* hablar agencias Urban Agency, Art, Blast, 
+MATIAS RANDAZO!!!
+Leonel Saldivar, Lolypop, 
+Mica estudiante de moda, contadora Vero Marty,
+Leticia y José profes coderhouse.
+Una mujer real,
+mamanosabe.blog,
+Kutty. club de emprendedoras.
+clientas de Taco de Reina (grupo vip y story para derivar a cuenta IG nueva)
+estados de whatsapp personal y laboral
+grupo de calzado
+
+barrio Manarola
