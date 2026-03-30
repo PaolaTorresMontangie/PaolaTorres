@@ -11,51 +11,59 @@ otra seccion
 #efedec rectangulo abajo con mucho texto arriba oscuro
 #afa29d seccion newsletter
 
+
 ********************************
 
-Tu servicio realmente es:
-hacer visible un negocio
-ponerlo en el mapa digital
-hacerlo encontrable
+mensaje para agencias y otros
 
-más visibilidad, más confianza, más ventas.
-Te encuentren - te conocen - te compran
-********************************
-git commit -m "section stats, varibles fonts, colores sin variables, menu hamburguesa se cierre, correciones vs, ajuste tamanios"
+**************************
 
-* revisar opengraph, no funciona bien
+* terminar ABOUT * 
+imagen
+color fond
+va en menu? y javascript?
 
 
-
-
-
-
-
-* ? cambiar nombre sistema de titulo, que no diga section sino container_title o algo asi (PAOLAT Y GIRAUT)
-* ? ojo con navbar-brand y logotipo, se pueden unificar? (PAOLAT Y GIRAUT)
-* ? implementar variables de clamp? (PAOLAT Y GIRAUT)
-* ? implementar variables de sombra? (PAOLAT Y GIRAUT)
-* ? cambiar nombre sistema de titulo, que no diga section sino container_title o algo asi (PAOLAT Y GIRAUT)
-* ? ojo con navbar-brand y logotipo, se pueden unificar? (PAOLAT Y GIRAUT)
-
-
+* que textos de whatsapp y telefono sean clickeables
+* que mockup de trabajos también sea clickeables
 * chequear mail desde gmail
+* que al subir a github se suba a hostinger
+
+
+
+* que telefono en form no sea obligatorio
+* hero cta "Agendemos una reunión"
+* link mockup y link 11-6782 y mail
+* nombre de los servicios
+* (link de linkedin, instagram, github, behance)
+* (logo de tienda nube, html, y logo del cliente)
+
+
 
 * visitas guiadas
 	* max-width 1600 o 1660
 	* debe ser el index.html principal en inglés en todas las páginas
 	<meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
 
-* terminar de armar respuestas automáticas para WB a las consultas
-* terminar de armar detalle de servicios con footer con mi web y slogan como presupuesto Giraut
+* terminar de armar pdf con detalle de mis servicios con precios y que al final 
+figure la imagen y mi firma, como en el presupuesto de Giraut
+
+* estadisitcas que muestran que tipo de pantalla utilizan (dar de baja statscounter) y
+dar de alta google analytics
+
+* ver curso coderhouse (bajar ultima dos clases y escuchar el de cliente ideal)
+
+
+* ? cambiar nombre sistema de titulo, que no diga section sino container_title o algo asi (PAOLAT Y GIRAUT)
+* ? ojo con navbar-brand y logotipo, se pueden unificar? (PAOLAT Y GIRAUT)
+* ? implementar variables de clamp? (PAOLAT Y GIRAUT)
+* ? implementar variables de sombra? (PAOLAT Y GIRAUT)
 
 
 *********************
 
-* que al subir a github se suba a hostinger
 * chequear velocidad de carga
 * pasar mis proyectos de github a Behance (y mas trabajos que vayan a behance)
-* estadisitcas que muestran que tipo de pantalla utilizan
 * cuidado con el mantenimiento de hosting, dominio para 02 y de tienda nube para 03, ver si hay que tocar 
 algun texto del sitio
 
@@ -135,24 +143,3 @@ Si querés, te preparo 3 preguntas perfectas para tu servicio y el código listo
 
 +++++++++++++++++++++++++++++
 
-DIFUSION
-
-* reseña positiva Agencia Urban y avisarles
-* pensar mensaje para las disintas personas a las que deseo avisarles (Mica estudiante moda)
-* armar respuestas guardadas en whatsapp business
-
-
-* ver workana
-* hablar agencias Urban Agency, Art, Blast, 
-MATIAS RANDAZO!!!
-Leonel Saldivar, Lolypop, 
-Mica estudiante de moda, contadora Vero Marty,
-Leticia y José profes coderhouse.
-Una mujer real,
-mamanosabe.blog,
-Kutty. club de emprendedoras.
-clientas de Taco de Reina (grupo vip y story para derivar a cuenta IG nueva)
-estados de whatsapp personal y laboral
-grupo de calzado
-
-barrio Manarola
