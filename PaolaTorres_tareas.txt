@@ -18,25 +18,14 @@ mensaje para agencias y otros
 
 **************************
 
-* terminar ABOUT * 
-imagen
-color fond
-va en menu? y javascript?
+commit -m "redisenio section contact, mejoras section about, correcion link activos, sitemap, correciones y mejoras vs"
 
 
-* que textos de whatsapp y telefono sean clickeables
-* que mockup de trabajos también sea clickeables
-* chequear mail desde gmail
+
 * que al subir a github se suba a hostinger
+* chequear form que funcione
+* chequear mail desde gmail
 
-
-
-* que telefono en form no sea obligatorio
-* hero cta "Agendemos una reunión"
-* link mockup y link 11-6782 y mail
-* nombre de los servicios
-* (link de linkedin, instagram, github, behance)
-* (logo de tienda nube, html, y logo del cliente)
 
 
 
@@ -45,47 +34,44 @@ va en menu? y javascript?
 	* debe ser el index.html principal en inglés en todas las páginas
 	<meta property="og:url" content="https://paolatorresmontangie.github.io/BAthematicwalkingtours/es/index.html">
 
-* terminar de armar pdf con detalle de mis servicios con precios y que al final 
-figure la imagen y mi firma, como en el presupuesto de Giraut
+* lowtian agrandar container-limit hasta 1600 o 1900, lo que quede mejor
+
 
 * estadisitcas que muestran que tipo de pantalla utilizan (dar de baja statscounter) y
 dar de alta google analytics
 
-* ver curso coderhouse (bajar ultima dos clases y escuchar el de cliente ideal)
+* ver curso coderhouse (escuchar el de cliente ideal)
 
-
-* ? cambiar nombre sistema de titulo, que no diga section sino container_title o algo asi (PAOLAT Y GIRAUT)
-* ? ojo con navbar-brand y logotipo, se pueden unificar? (PAOLAT Y GIRAUT)
-* ? implementar variables de clamp? (PAOLAT Y GIRAUT)
+* GIRAUT container-limit a container__limit y btn-primary y secondary
+* ? implementar variables de clamp? (GIRAUT)
 * ? implementar variables de sombra? (PAOLAT Y GIRAUT)
+
+COMERCIAL
+* nombre de los servicios?
+* terminar de armar pdf con detalle de mis servicios con precios y que al final 
+figure la imagen y mi firma, como en el presupuesto de Giraut
+* (usar foto web en perfil instagram y whatsapp business)
+
 
 
 *********************
+
+FASE 2
+* flecha para arriba
+* (link de linkedin, instagram, github, behance mios)
+* (logo de tienda nube, html, y logo del cliente)
+* idea Facundo Becerra: que se desplieguen los 3 servicios juntos
+
+
+* investigar como se hace el newsletter desde Tienda Nube
+
+* diseño de otros templates (ver folletos que junté)
 
 * chequear velocidad de carga
 * pasar mis proyectos de github a Behance (y mas trabajos que vayan a behance)
 * cuidado con el mantenimiento de hosting, dominio para 02 y de tienda nube para 03, ver si hay que tocar 
 algun texto del sitio
 
-
-
-
-**** site:paolatorres.com.ar
-Si aparece tu página → ya está indexada.
-
-
-FASE 2
-* contacto: como hacer que la imagen no quede volando?
-* agregar autoridad! coso verde!
-
-* animar la flechita para desplegar servicios
-* flecha para arriba
-* hero agrandar lado izquierdo con plantas
-* grid con column y row para que siempre esté centrado en ancho y alto
-
-* investigar como se hace el newsletter desde Tienda Nube
-
-* diseño de otros templates (ver folletos que junté)
 
 FASE 3
 🚀 Te dejo un truco SEO que casi nadie usa (y sirve mucho)

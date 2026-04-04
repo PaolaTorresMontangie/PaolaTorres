@@ -3,9 +3,10 @@
 :root {
 
   /* marca */
-  --color-primary: #1f493d;           /* verde te papa green */
+  --color-primary: #1f493d;           /* verde te papa green rgb(31, 73, 61) */
   --color-primary-hover: #336659;     /* verde stromboli */
   --color-primary-dark: #183c2e;
+  --color-primary-light: #1e795f;
 
   /* acentos */
   --color-accent: #a76e45;            /* marron cape palliser */
@@ -16,7 +17,7 @@
   --color-border-soft-hover: #d9d0d1;
 
   /* fondos */
-  --color-background-main: #FAF7F4;   /* blanco marfil ivory */
+  --color-background-main: #faf7f4;   /* blanco marfil ivory rgb(250, 247, 244) */
   --color-background-soft: #f1e7e8;   /* lila claro soft peach */
 
   /* texto */
@@ -32,13 +33,17 @@
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Playfair Display", serif;    
 
-  /* tamanios */
+  /* tamanios fonts */
+  --fs-xs: clamp(0.75rem, 0.8vw, 0.85rem);
   --fs-sm: clamp(0.8rem, 0.9vw, 0.9rem);
   --fs-base: clamp(0.95rem, 1.1vw, 1.05rem);
   --fs-md: clamp(1.1rem, 1.5vw, 1.3rem);
+  --fs-md2: clamp(1.4rem, 2vw, 1.8rem);  
   --fs-lg: clamp(1.8rem, 2.5vw, 2.2rem);
-  --fs-hero: clamp(2.2rem, 5vw, 4.5rem);  
+  --fs-hero: clamp(2.2rem, 3.5vw, 3.5rem);
+  /* --fs-hero: clamp(2.2rem, 5vw, 4.5rem);   */
 
+  /* sombras */
   --shadow-soft: 0 15px 35px rgba(0,0,0,0.05);
   --shadow-medium: 0 12px 28px rgba(0,0,0,0.12);
   --shadow-strong: 0 40px 80px rgba(0,0,0,0.18);  
@@ -58,12 +63,12 @@ body {
   font-family: var(--font-primary);
   font-optical-sizing: auto;
   color: var(--color-text-main);  
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   scroll-behavior: smooth;
 }
 
 p {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   color: var(--color-text-main);   
 }
 
@@ -77,7 +82,7 @@ a {
 }
 
 /* contenedor con ancho limitado para pantallas grandes */
-.container-limit {
+.container__limit {
   max-width: 1600px;
   margin-inline: auto;
   padding-inline: clamp(1rem, 4vw, 3rem);
@@ -92,29 +97,30 @@ a {
 
 .section__eyebrow {
   display: block;
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
-  letter-spacing: 0.2em;
+  font-size: var(--fs-sm);
+  font-weight: 500;  
+  letter-spacing: 0.08em; 
   text-transform: uppercase;
-  color: var(--color-primary-hover);
+  color: var(--color-accent);
   margin-bottom: 1rem;
-  font-weight: 500;
+  /* opacity: 0.85; */
 }
 
 .section__title {
-  font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+  font-size: var(--fs-lg);
   line-height: 1.2;
   color: var(--color-text-main);
   margin-bottom: 1rem;
 }
 
 .section__description {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   color: var(--color-text-muted);
   line-height: 1.6;
 }
 
-.btn-primary {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+.btn--primary {
+  font-size: var(--fs-base);
   font-weight: 500;
   background-color: var(--color-primary);
   color: var(--color-background-main);
@@ -126,13 +132,13 @@ a {
   transition: all 0.3s ease;
 }
 
-.btn-primary:hover {
+.btn--primary:hover {
   background-color: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
 }
 
-.btn-secondary {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+.btn--secondary {
+  font-size: var(--fs-base);
   font-weight: 500;
   background-color: transparent;
   color: var(--color-accent);
@@ -145,18 +151,17 @@ a {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
 }
 
-.btn-secondary:hover {
+.btn--secondary:hover {
   border-color: var(--color-border-soft);
   color: var(--color-accent);  
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
 .microtext {
-  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  font-size: var(--fs-md);
   font-weight: 600;
   color: var(--color-text-main);
   opacity: 0.85;
-  /* text-align: center; */
   margin-top: 2.5rem;
   margin-bottom: 0;
 }
@@ -188,20 +193,22 @@ a {
 
 /* Links */
 .navbar-nav .nav-link {
-  font-size: clamp(0.95rem, 0.8rem + 0.4vw, 1.1rem);
+  color: var(--color-primary);
+  font-size: var(--fs-base);
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 /* Hover */
 .custom-navbar .nav-link:hover {
-  color: var(--color-accent-soft);
+  color: var(--color-accent);
 }
 
 /* Link activo */
 .custom-navbar .nav-link[aria-current="page"] {
-  color: var(--color-primary-hover);
-  font-weight: 600;
+  font-weight: 700 !important;
+  color: var(--color-primary);  
+  border-bottom: 2px solid var(--color-primary);
 }
 
 /* Marca */
@@ -212,13 +219,12 @@ a {
 .logo {
   font-family: var(--font-secondary);
   font-weight: 600;  
-  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  font-size: var(--fs-md2);
   text-transform: uppercase;
   letter-spacing: 0.14em;
 }
 
 .logo:hover {
-  /* font-weight: 650; */
   text-shadow: 0 2px 8px rgba(0,0,0,0.35);
 }
 
@@ -274,18 +280,16 @@ a {
 }
 
 .hero__title {
-  font-size: clamp(2.2rem, 2.5vw, 3.2rem);
-  /* font-size: clamp(2.2rem, 5vw, 4.5rem); */
+  font-size: var(--fs-hero);
   font-weight: 600;
   line-height: 1.15;
-  max-width: 20ch;  /* limita el ancho según caracteres, no porcentaje */
-  /* max-width: 45%; */  
+  max-width: 20ch;  /* ancho según caracteres */
   color: var(--color-background-main);
   text-shadow: 0 2px 8px rgba(0,0,0,0.35);
 }
 
 .hero__subtitle {  
-  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  font-size: var(--fs-md2);
   font-weight: 400;
   line-height: 1.4;  
   color: var(--color-background-main); 
@@ -295,7 +299,7 @@ a {
 }
 
 .btn__hero-cta {
-  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  font-size: var(--fs-md);
   font-weight: 500;
   background-color: var(--color-primary);
   color: var(--color-background-main);   
@@ -352,7 +356,7 @@ a {
 
 .service__number {
   font-family: var(--font-secondary);  
-  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  font-size: var(--fs-hero);
   font-weight: 500;
   color: var(--color-accent-soft);
   opacity: 0.6;  
@@ -360,7 +364,7 @@ a {
 }
 
 .service__heading {
-  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  font-size: var(--fs-md);
   font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 1.3;
@@ -368,7 +372,7 @@ a {
 }
 
 .service__description {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   line-height: 1.7;
   color: var(--color-text-muted);
 }
@@ -388,11 +392,11 @@ a {
 }
 
 .service__time {
-  font-size: 0.9rem;
+  font-size: var(--fs-base);
   color: var(--color-text-light);
 }
 
-.service__card-content .btn-primary {
+.service__card-content .btn--primary {
   margin-top: auto;
 }
 
@@ -400,7 +404,7 @@ a {
 .services__extra {
   margin-top: 3rem;
   text-align: center;
-  font-size: 0.95rem;
+  font-size: var(--fs-base);
   color: var(--color-text-muted);
 }
 
@@ -420,14 +424,14 @@ a {
 }
 
 .examples__heading {
-  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  font-size: var(--fs-md);
   color: var(--color-primary);   
   margin-bottom: 1.5rem;
   line-height: 1.3;  
 }
 
 .examples__description {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   line-height: 1.7;
   color: var(--color-text-muted);
   margin-bottom: 1.5rem;
@@ -523,14 +527,14 @@ a {
 }
 
 .stats__title {
-  font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+  font-size: var(--fs-lg);
   margin-bottom: 1rem;
   color: var(--color-background-main);
   opacity: 0.85; 
 }
 
 .stats__description {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   color: var(--color-background-main);  
   opacity: 0.85;
   max-width: 1000px;
@@ -600,7 +604,7 @@ a {
 
 .stats__text {
   font-family: var(--font-primary);
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);  
+  font-size: var(--fs-base);  
   font-weight: 400; 
   color: var(--color-background-main);
   text-shadow: 0 2px 8px rgba(0,0,0,0.35);    
@@ -624,32 +628,24 @@ a {
   display: grid;
   grid-template-columns: 0.8fr 1.3fr;
   gap: 1.5rem;
-  align-items: start;
+  align-items: center;
 }
 
-.about__image {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  /* width: fit-content; */
-}
 
 .about__image img {
-  display: block;
   width: 100%;
-  max-width: 360px; 
-  height: auto;
+  max-width: 380px;
   border-radius: 20px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-  filter: contrast(1.05) brightness(1.02);
+  box-shadow: var(--shadow-medium);
 }
 
 .about__content {
-  max-width: 75ch;
+  text-align: left;
+  max-width: 90%;
 }
 
 .about__description {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   line-height: 1.5;
   color: var(--color-text-muted);
 }
@@ -657,75 +653,181 @@ a {
 /* CONTACT CONTACTO ================================================================================ */
 
 .section__contact {
-  background-color: var(--color-background-main);  
+  background-color: var(--color-background-main);
+  position: relative;
+}
+
+/* fondo con rosas */
+.section__contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(250, 247, 244, 0.7) 0%,
+      rgba(250, 247, 244, 0.8) 15%,      
+      rgba(250, 247, 244, 0.9) 30%,      
+      rgba(250, 247, 244, 1) 50%
+    ),
+    
+    url("../img/contactWallpaper.jpg");
+
+  background-size: cover;
+  background-position: 0% 40%;
+
+  z-index: 0;
+}
+
+.section__contact * {
+  position: relative;
+  z-index: 1;
 }
 
 .contact__grid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   align-items: center;
-  margin-top: 3rem;
-}
-
-/* contacto rápido — iconos y texto */
-.contact__quick-contact {
-  display: flex; 
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-}
-
-.contact__quick-line {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  font-size: 1.1rem;
-}
-
-.contact__icon {
-  width: 1.8rem;
-  height: auto;
-}
-
-.contact__image img {
-  width: 80%;
-  height: auto;
-  max-height: none;
-  border-radius: 20px;
-  object-fit: cover;   
-}
-
-.contact__text {
-  font-size: 1.1rem;
-  font-weight: 400;
-  color: var(--color-text-main);
+  padding-top: 2rem;
 } 
 
-.contact__quick-line:hover .contact__icon {
-  transform: scale(1.05);
-  transition: transform 0.2s ease;
+/* COLUMNA IZQUIERDA ******/
+.contact__info {
+  max-width: 100%;
+  /* padding-left: 4rem; */
+  padding-left: clamp(0rem, 2vw, 2rem);  
 }
 
-.contact__form {
-  background-color: var(--color-background-main);
-  padding: 2.5rem;
-  border-radius: 20px;
-  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+/* piso la clase para limitarla */
+.contact__info .section__description {
+  max-width: 90%;
 }
 
-.contact__form .form-label {
-  font-size: 1.1rem;
+.contact__quick {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;  
+  margin-bottom: 4rem;
+}
+
+/* agrupado de datos */
+.contact__item {
+  display: flex;
+  align-items: center;  
+  gap: 0.9rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact__icon:hover,
+.contact__label:hover,
+.contact__value:hover {
+  opacity: 0.7;
+}
+
+/* icono svg */
+.contact__icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--color-primary-light);
+  flex-shrink: 0;
+}
+
+/* contenedor texto x2 */
+.contact__item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__label {
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+}
+
+.contact__value {
+  font-size: var(--fs-base);
   font-weight: 500;
+  color: var(--color-text-main);
 }
 
-.contact__form .form-control {
-  font-size: 1rem;
-  padding: 0.6rem 0.75rem;
+/* piso la clase para limitar el ancho */
+.contact__grid .microtext {
+  max-width: 40ch;
 }
 
-/* gracias, solo se muestra cuando un cliente envia un mail */
+/* COLUMNA DERECHA ******/
+.contact__form {
+  background-color: transparent;
+  /* margin-top: 2.5rem; */
+}
+
+.form-group {
+  margin-bottom: 0.9rem;
+}
+
+/* email y telefono en una sola linea */
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.form-group label {
+  font-size: var(--fs-xs);
+  color: var(--color-text-main);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  background-color: var(--color-surface);
+  border-radius: 12px;  
+  border: 1px solid var(--color-primary-hover);
+  transition: all 0.25s ease;  
+}
+
+/* textos que ayudan a completar muy suaves */
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--color-text-muted);  
+  opacity: 0.7;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 2px rgba(31, 73, 61, 0.08);
+}
+
+.form-group textarea {
+  min-height: 120px;
+}
+
+/* pisa la clase btn--primary*/
+.contact__form .btn--primary {
+  width: 100%;
+  justify-content: center;
+  margin-top: 0.8rem;
+  font-size: var(--fs-md);  
+  padding: 0.9rem;
+  border-radius: 12px;
+}
+
+
+
+
+
+/* gracias, solo se muestra cuando un cliente envia un mail ***********/
 .section__thanks {
   background-color: var(--color-background-main);
   
@@ -745,7 +847,7 @@ a {
 }
 
 .footer__tagline {
-  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
+  font-size: var(--fs-md);
   font-weight: 400; 
   font-style: italic;
   letter-spacing: 0.5px;  
@@ -758,7 +860,7 @@ a {
 }
 
 .footer__copy {
-  font-size: clamp(0.95rem, 1.1vw, 1.05rem);
+  font-size: var(--fs-base);
   color: var(--color-background-main);  
   font-weight: 300;
   opacity: 0.7;
@@ -821,7 +923,7 @@ a {
 
   /* Texto ligeramente mayor en mobile */
   .navbar-nav .nav-link {
-    font-size: clamp(1rem, 0.9rem + 1vw, 1.2rem);
+    font-size: var(--fs-md);
     padding: 0.5rem 0;
   }
 
@@ -896,6 +998,12 @@ a {
     padding-right: 1.5rem;    
   }
 
+  /* achico espacios y font */
+  .microtext {
+    margin-top: 0.5rem;
+    font-size: var(--fs-base);
+  }
+
   /* header MEDIAQUERY -----*/    
   
   .hero__content {
@@ -910,15 +1018,16 @@ a {
   }
 
   .hero__title {
-    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+    font-size: var(--fs-lg);
   }
 
   .hero__subtitle {
-    font-size: clamp(1rem, 3.8vw, 1.3rem);
+    /* font-size: clamp(1rem, 3.8vw, 1.3rem); */
+    font-size: var(--fs-md);
   }
 
   .btn__hero-cta {
-    padding: clamp(0.8rem, 0.9vw, 0.9rem) clamp(1.1rem, 1.5vw, 1.3rem);
+    padding: var(--fs-sm) var(--fs-md);
   }
 
  /* services MEDIAQUERY ----- */  
@@ -987,33 +1096,105 @@ a {
 
   .about__grid {
     grid-template-columns: 1fr;
-    text-align: center;
+    gap: 1.5rem;
   }
 
-  .about__image img {
-    margin: 0 auto;
+  .about__image {
+    justify-content: flex-start;
   }
+
+  /* imagen centrada */
+  .about__image img {
+    max-width: 500px;
+    margin: 0 auto;    
+  }
+
+  /* texto ocupa todo el ancho */
+  .about__content {
+    max-width: 100%;
+  }
+
 
   /* contact MEDIAQUERY ----- */  
+
+  /* reposiciono la imagen y el gradient */
+  .section__contact::before {
+    background:
+    linear-gradient(
+      to bottom,
+      rgba(250, 247, 244, 0.7) 0%,
+      rgba(250, 247, 244, 0.8) 5%,      
+      rgba(250, 247, 244, 0.9) 10%,      
+      rgba(250, 247, 244, 1) 15%
+    ),
+    url("../img/contactWallpaper.jpg");
+
+    background-position: 70% 0%;
+  }
 
   /* grilla de contacto la pasa una columna */
   .contact__grid {
     grid-template-columns: 1fr;
+    gap: 2rem;
+  } 
+
+  /* COLUMNA IZQUIERDA ******/
+
+  .contact__info {   
+    padding-left: 0;
   }
 
-  .contact__quick-contact {
-    flex-direction: column;
-    gap: 1.2rem;
+  /* saco el limite */
+  .contact__info .section__description {
+    max-width: 100%;
   }
-    
-  .contact__icon {
-    width: 2.2rem;
-  }  
 
-  /* desaparece la imagen de la seccion contacto */
-  .contact__image {
-    display: none;
+  .contact__quick {
+    margin-top: 1rem;  
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+
+  /* agrega espacio vertical */
+  .contact__item {
+    padding: 0.6rem 0;
+  }
+
+  /* COLUMNA DERECHA ******/
+  .contact__form {    
+    margin-top: 2.5rem;
+  }
+
+  /* form mas compacto */
+  /* .form-group {
+    margin-bottom: 1rem;
+    background-color: pink;    
   }  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.7rem 0.9rem;
+    background-color: yellow;
+  } */
+
+  /* email y telefono pasan a una columna*/
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  /* .btn--primary {
+    width: 10%;
+    justify-content: center;
+  } */
+
+  /* saco el limite de ancho */
+  .contact__grid .microtext {
+    max-width: 100%;
+    /* margin-top: 0; */ 
+  }
+
+
+
+
 
   /* Pequeña adaptación mobile */
   .whatsapp__float {
