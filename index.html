@@ -737,9 +737,16 @@
                                     id="mensaje"
                                     name="mensaje"
                                     rows="6"
-                                    placeholder="Contame brevemente qué necesitás..."
+                                    placeholder="Contame brevemente como puedo ayudarte..."
                                     required></textarea>                                    
                             </div>
+
+                            <!-- campos ocultos -->
+                            <input type="hidden" name="_subject" value="Nuevo mensaje desde tu web">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">                            
+                            <input type="hidden" name="_next" value="https://paolatorres.com.ar/#thanks">                            
+                            <input type="text" name="_honey" style="display:none">                            
 
                             <button class="btn--primary">Enviar mensaje</button>
 

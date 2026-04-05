@@ -18,10 +18,11 @@ mensaje para agencias y otros
 
 **************************
 
-commit -m "redisenio section contact, mejoras section about, correcion link activos, sitemap, correciones y mejoras vs"
 
 
 
+
+* mejorar mi imagen (volver a bajarla, cambiarle fondo en canva con ivory liso con sombra)
 * que al subir a github se suba a hostinger
 * chequear form que funcione
 * chequear mail desde gmail
