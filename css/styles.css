@@ -540,32 +540,39 @@ a {
   max-width: 1000px;
   margin: 0 auto;
   line-height: 1.6;
-    opacity: 0.75;
+  opacity: 0.75;
 }
 /* fin sistema titulos */
 
+/* primero a la izquierda */
 .stats__grid > div:nth-child(1) {
   text-align: left;
 }
 
+/* segundo centrado y con margin para darle aire a las lineas */
 .stats__grid > div:nth-child(2) {
   text-align: center;
+  padding: 0 clamp(2.2rem, 3.5vw, 3.5rem);
 }
 
+/* tercero a la derecha */
 .stats__grid > div:nth-child(3) {
   text-align: right;
 }
 
+/* si es el segundo font grande */
 .stats__grid > div:nth-child(2) .stats__value {
   font-size: clamp(4.5rem, 7vw, 6rem);
 }
 
+/* si es el primero y tercero font mas chico */
 .stats__grid > div:nth-child(1) .stats__value,
 .stats__grid > div:nth-child(3) .stats__value {
   font-size: clamp(3rem, 4.5vw, 4rem);
   opacity: 0.85;
 }
 
+/* paraa posicionar las lineas divisorias */
 .stats__grid > div {
   position: relative;
 }
@@ -574,12 +581,12 @@ a {
 .stats__grid > div:not(:last-child)::after {
   content: "";
   position: absolute;
-  right: -10px;
+  right: -25px;
   top: 50%;
-  transform: translateY(-50%);
-  width: 1px;
-  height: 40px;
-  background: rgba(255,255,255,0.2);
+  transform: translateY(-50%); /* ubicada al centro */
+  width: 1px;         /* ancho de la linea */
+  height: 80px;       /* largo de la linea */
+  background: rgba(255,255,255,0.25); /* opacidad de la linea */
 }
 
 .stats__value {
@@ -627,18 +634,44 @@ a {
 .about__grid {
   display: grid;
   grid-template-columns: 0.8fr 1.3fr;
-  gap: 1.5rem;
+  gap: 3rem;
   align-items: center;
 }
 
+/* imagen sin fondo y con fondo manchado */
+.about__img-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
 
-.about__image img {
-  width: 100%;
-  max-width: 380px;
-  border-radius: 20px;
-  box-shadow: var(--shadow-medium);
+  width: 70%;
+  height: auto;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
+.about__img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.08));
+}
+
+.blob {
+    position: absolute;
+    top: -5%;
+    left: -15%;
+    width: 120%;
+    height: 105%;
+    background: var(--color-accent-soft);
+    opacity: 0.25;
+    border-radius: 60% 40% 50% 50% / 50% 60% 40% 50%;
+    z-index: 1;
+}
+
+
+/* columna derecha de texto */
 .about__content {
   text-align: left;
   max-width: 90%;
@@ -830,8 +863,15 @@ a {
 /* gracias, solo se muestra cuando un cliente envia un mail ***********/
 .section__thanks {
   background-color: var(--color-background-main);
-  
   display: none;
+}
+
+.divisor__line {
+  max-width: 600px;
+  border: none;
+  border-top: 2px solid var(--color-accent-soft);
+  margin: 1.5rem auto;
+  padding-top: 3rem;
 }
 
 #thanks:target {
@@ -1099,21 +1139,19 @@ a {
     gap: 1.5rem;
   }
 
-  .about__image {
-    justify-content: flex-start;
+  .about__img-wrapper {
   }
 
-  /* imagen centrada */
-  .about__image img {
-    max-width: 500px;
-    margin: 0 auto;    
+  /* acomodo mancha*/
+  .blob {
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   /* texto ocupa todo el ancho */
   .about__content {
     max-width: 100%;
-  }
-
+  } 
 
   /* contact MEDIAQUERY ----- */  
 

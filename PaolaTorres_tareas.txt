@@ -18,17 +18,14 @@ mensaje para agencias y otros
 
 **************************
 
+git commit -m "linea divisoria #thanks, foto de contac con mancha y mejora lineas separacion stats"
 
 
 
 
-* mejorar mi imagen (volver a bajarla, cambiarle fondo en canva con ivory liso con sombra)
+
 * que al subir a github se suba a hostinger
-* chequear form que funcione
 * chequear mail desde gmail
-
-
-
 
 * visitas guiadas
 	* max-width 1600 o 1660
@@ -43,7 +40,7 @@ dar de alta google analytics
 
 * ver curso coderhouse (escuchar el de cliente ideal)
 
-* GIRAUT container-limit a container__limit y btn-primary y secondary
+* GIRAUT container-limit a container__limit y btn--primary y btn--secondary (chequear)
 * ? implementar variables de clamp? (GIRAUT)
 * ? implementar variables de sombra? (PAOLAT Y GIRAUT)
 
@@ -73,7 +70,7 @@ FASE 2
 * cuidado con el mantenimiento de hosting, dominio para 02 y de tienda nube para 03, ver si hay que tocar 
 algun texto del sitio
 
-
+*******************
 FASE 3
 🚀 Te dejo un truco SEO que casi nadie usa (y sirve mucho)
 
