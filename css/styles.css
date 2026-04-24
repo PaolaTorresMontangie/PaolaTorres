@@ -1062,7 +1062,6 @@ a {
   }
 
   .hero__subtitle {
-    /* font-size: clamp(1rem, 3.8vw, 1.3rem); */
     font-size: var(--fs-md);
   }
 

@@ -18,8 +18,9 @@ mensaje para agencias y otros
 
 **************************
 
-git commit -m "linea divisoria #thanks, foto de contac con mancha y mejora lineas separacion stats"
 
+limpiar gmail
+https://www.instagram.com/reel/DWekdSoBQGH/?igsh=dGpndjVreGdmdnd1
 
 
 
@@ -40,9 +41,12 @@ dar de alta google analytics
 
 * ver curso coderhouse (escuchar el de cliente ideal)
 
-* GIRAUT container-limit a container__limit y btn--primary y btn--secondary (chequear)
 * ? implementar variables de clamp? (GIRAUT)
 * ? implementar variables de sombra? (PAOLAT Y GIRAUT)
+
+
+
+
 
 COMERCIAL
 * nombre de los servicios?
@@ -127,3 +131,103 @@ Si querés, te preparo 3 preguntas perfectas para tu servicio y el código listo
 
 +++++++++++++++++++++++++++++
 
+
+
+Quiero analizar mi situacion laboral. Por favor, tomá lo que ya sepas de mí y te sumo mas información.
+
+* MI HISTORIA (si te sirvo te paso mi cv)
+Soy analista de sistemas recibida en la ORT Argentina en el año 2004, trabajé durante 15 años en las empresas más grandes de Argentina (Banco Santander, Banco Nación, Banco Galicia, Oracle, Teradata, Movistar, Arcor, etcétera) principalmente en el área de base de datos. Desde el 2009 al 2013 trabajé en forma freelance en paralelo al trabajo en relación de depencia haciendo páginas web estáticas (html, css) y dinámicas (php, mysql). Mi deseo era dejar el trabajo en relación de dependencia y trabajar en forma remoto desde cualquier lugar y ganar en dólares, creo que en ese momento armé mi perfil (que ya está aprobado) en Workana. Mis clientes los conseguía en forma directa y de boca en boca.
+Por otro motivos, no seguí con las páginas web y nunca llegué a postularme en Workana.
+Seguí trabajando en relación de depencia hasta 2019 luego de una situación fea en Banco Galicia, a quien le inicio juicio laboral. 
+Durante 2019 empiezo a estudiar para hacer aplicaciones para celulares pero el lugar donde estudía no tiene buen nivel en este curso y no pude entenderlo. Cuando plantié el mal nivel del curso, me ofrecieron ser profesora.
+En diciembre de 2019 ganó el jucio a Consultora por la que trabajaba en Banco Galicia y como lo de Android no funcionaba,
+decido empezar con un emprendimiento propio. Luego de evaluarlo con una asesora y reunirme con otras posibles socios, decidimos 
+emprender en el calzado femenino en talles grandes (nicho poco explotado) que hice durante 2020.
+Enero de 2021 soy mamá por dos y me dedicó por 1 año y medio a ser mamá, en julio de 2022 retomo 
+el emprendimiento de calzado por mi cuenta hasta octubre 2025 que debo cerrar por la crisis de Argentina.
+
+* SITUACION ACTUAL
+Octubre de 2025 comienzo a estudiar para actualizarme para volver a trabar en forma free lance con páginas web.
+Hago mi página web www.paolatorres.com.ar con un portofolio con otros proyectos, enfocado a pequeños emprendedores
+o negocios locales que no tienen presencia online. También es mi lugar para mostrar mis habilidades
+
+* POSIBLES CLIENTES. A propósito busco diversificar para tener más oportunidades.
+
+** opcion A: busqueda en el país y por conocidos y/o cercanía:
+pros: cercanía e idioma. contras: mala situación económica del país
+
+- contactos: conocidos, profesores web, colegas, agencias de marketing con las que trabajé, 
+clientas emprendimiento, etc.
+- contactar a negocios / profesionales que volantean
+- contactar a negocios locales en forma personal
+- contactar emprendimientos posibles clientes de instagram
+- ex compañeros de la facultad (Matias Castro EEUU)
+- Instagram para publicidad y captar clientes pequeños
+
+
+** opción B: Workana
+pros: muchas oportunidades, también de otros países que tengan mejor economía
+contras: mucha competencia, ningun proyecto ganado (si perfil aprobado)
+
+- me estoy postulando a landing page, diseño web, páginas sencillas
+
+
+* DUDAS
+
+** opción A:
+tengo que insistir en ofrecer canjes a Matías Randazzo o mamanosabe.blog 
+Matias Castro alto cargo en EEUU (me da verguenza, podría no tener freelance)
+que tienen una audiencia de emprendores. (me da verguenza y no tengo el Ig poblado)
+tengo que gastar energía en poblar mi Instagram para publicitar? (me cuesta y no me gusta)
+todavía no escribí a ninguno de los folletos que fui recoletando (me da un poco verguenza 
+pero creo que puedo hacerlo, deberia armar un textos copado para que se interesen y no lo sientan como invasión)
+
+** opción B:
+expando mi búsqueda a mis conocimientos de Php, Mysql, SQL, reportes?
+(me da un poco de miedo porque php y mysql hace mucho no lo hago)
+(sql y proyectos afines me aburren y me traen malo recuerdos)
+pero realmente necesito conseguir mis primeros trabajos por la necesidad económica
+y porque quiero que me den reseñas positivas
+
+otras ideas:
+ofrecerme como profesora para Coderhouse
+
+
+**********
+
+webinar workana
+
+c1 c2 inglés para traductor de ingles
+desarrollar de software desde USD 10
+
+
+#2 perfil
+perfil: que sea claro a que me dedico
+
+----> perfil actractivo con mis proyectos (be hance)
+
+importante (obvio): sobre mí e historia laboral
+----> certificación de perfil
+
+sin calificaciones: gana 1 de 35 propuestas
+
+1 a 3 calif: gana 1 de 16 propuestas
+
+#3 buenas propuestas
+
+Ia: prompt 
+"vi un proyecto en Workana al que quiero postularme. Te lo compartiré a continuación:
+Enfocate en el dolor del cliente, tengo todas las hbailidades que se necesitan, 
+dame una respuesta corta pero que genere un acción inmediata"
+
+cta: agendar? puedes ver mi portofolio, etc..
+que sea humano y demuestre seguridad: estoy segura que puedo ayudarte!
+
+# plan EXPLORER
+12 meses de explores
+1er proyecto con Workana
+validacion 5 estrella en perfil
+taller mensual mentorialo grupal y en vivo
+comunidad Discord
+app de salud 24/7 habla hispana
+busqueda laboral exclusive de Workana
